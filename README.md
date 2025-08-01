@@ -1,7 +1,7 @@
 <p align="center">
 
 ### INSTALL SCRIPT 
-<pre><code>apt install screen -y;wget -q https://raw.githubusercontent.com/p3yx/newsc/main/setup_buyer_sc.sh;chmod +x setup_buyer_sc.sh;screen -S Xwan ./setup.sh
+<pre><code>apt install screen -y;wget -q https://raw.githubusercontent.com/p3yx/newsc/main/setup_buyer_sc.sh;chmod +x setup_buyer_sc.sh;screen -S Xwan ./setup_buyer_sc.sh
 </code></pre>
 
 ### TESTED ON OS 

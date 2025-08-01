@@ -1,10 +1,10 @@
 #!/bin/bash
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
-REPO="https://raw.githubusercontent.com/bakulsc/os/main/"
+REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
 function CEKIP () {
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IPVPS=$(curl -sS https://raw.githubusercontent.com/bakulsc/izinvps/main/ip | grep $MYIP | awk '{print $4}')
+IPVPS=$(curl -sS https://raw.githubusercontent.com/p3yx/newsc/main/ipx | grep $MYIP | awk '{print $4}')
 if [[ $MYIP == $IPVPS ]]; then
 domain
 Pasang
@@ -57,7 +57,7 @@ echo -e "$green                ____ ____ _  _$NC"
 echo -e "$green                [__  [__  |__|$NC"
 echo -e "$green                ___] ___] |  |$NC"
 echo -e "$green                $NC"                                                                                                                          
-echo -e "$green♥ TERIMAKSIH TELAH MEMAKAI SCRIPT BZOFFICIALL ♥$NC"
+echo -e "$green♥ TERIMAKSIH TELAH MEMAKAI SCRIPT PXOFFICIALL ♥$NC"
 sleep 2
 sleep 5
 echo -e  "${green}┌──────────────────────────────────────────┐${NC}"
@@ -67,7 +67,7 @@ echo " "
 until [[ $name =~ ^[a-zA-Z0-9_.-]+$ ]]; do
 read -rp "Masukan Nama Kamu Disini tanpa spasi : " -e name
 done
-echo "BZOFFICIAL" > /etc/xray/username
+echo "PXOFFICIAL" > /etc/xray/username
 echo ""
 clear
 author=$name
@@ -197,7 +197,7 @@ if [[ $domain == "2" ]]; then
 clear
 echo -e  "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e  "${green}│  \033[1;37mContoh subdomain ( myrid )                    ${green}│${NC}"
-echo -e  "${green}│    \033[1;37mxxx.xwan.me jadi subdomain kamu               ${green}│${NC}"
+echo -e  "${green}│    \033[1;37mxxx.peyx.me jadi subdomain kamu               ${green}│${NC}"
 echo -e  "${green}└──────────────────────────────────────────┘${NC}"
 echo " "
 until [[ $dn1 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
@@ -422,8 +422,8 @@ res9
 function iinfo(){
 domain=$(cat /etc/xray/domain)
 TIMES="10"
-CHATID="1210833546"
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+CHATID="7661292905"
+KEY="7339190471:AAGXSY1F_fzJo4SBqHjqeF8HdR4t9AnIMKs"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)

@@ -1,10 +1,11 @@
 #!/bin/bash
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
-REPO="https://raw.githubusercontent.com/bakulsc/os/main/"
+REPO="https://v4.serverpremium.web.id:81/os/"
+REPO2="https://raw.githubusercontent.com/p3yx/newsc/main/"
 function CEKIP () {
 MYIP=$(curl -sS ipv4.icanhazip.com)
-IPVPS=$(curl -sS https://raw.githubusercontent.com/p3yx/newsc/main/ip | grep $MYIP | awk '{print $4}')
+IPVPS=$(curl -sS https://raw.githubusercontent.com/p3yx/newsc/main/ipx | grep $MYIP | awk '{print $4}')
 if [[ $MYIP == $IPVPS ]]; then
 domain
 Pasang
@@ -312,7 +313,7 @@ clear
 }
 
 res7() {
-wget ${REPO}menu/update.sh && chmod +x update.sh && ./update.sh
+wget ${REPO2}menu/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
 

@@ -1,16 +1,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Capriola&size=40&duration=4000&pause=450&color=F70069&background=FFFFAA00&center=true&random=false&width=600&height=100&lines=XBOT RESELLER !;Explore the world of features!" /></p>
 
-<br>
-<h2 align="center"> ✧ Join My WhatsApp Group For Support ✧ </h2>
-
-<h2 align="center">
-  <a href="https://wa.me/6285691670272">
-    <img src="https://img.shields.io/badge/Join Group-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-</h>
-<br>
-
 ### INSTALL BOT RESELLER 
 <pre><code>wget -q https://raw.githubusercontent.com/myridwan/Api2/ipuk/start && chmod +x start && ./start sellvpn
 </code></pre>

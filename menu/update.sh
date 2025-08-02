@@ -111,12 +111,11 @@ TEXT="-------------------------------
 -------------------------------
 <b>IP VPS  :</b> ${MYIP} 
 <b>DOMAIN  :</b> ${domain}
-<b>Version :</b> $PEYX
 <b>USER    :</b> ${username}
 <b>MASA    :</b> $certifacate DAY
 -------------------------------
 BY BOT : @frel01
 "
 curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
-echo -e " [INFO] File download and setup completed successfully. Version: PEYX"
+echo -e " [INFO] File download and setup completed successfully. Owner: PEYX"
 exit

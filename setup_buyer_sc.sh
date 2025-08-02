@@ -68,7 +68,7 @@ echo " "
 until [[ $name =~ ^[a-zA-Z0-9_.-]+$ ]]; do
 read -rp "Masukan Nama Kamu Disini tanpa spasi : " -e name
 done
-echo "BZOFFICIAL" > /etc/xray/username
+echo "PXSTORE" > /etc/xray/username
 echo ""
 clear
 author=$name
@@ -452,7 +452,7 @@ TEXT="
 <code>EXP SCRIPT : </code><code>$EXP Days</code>
 <code>━━━━━━━━━━━━━━━━━━━━</code>
 <i> Notifikasi Installer Script...</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"🔥ᴏʀᴅᴇʀ","url":"https://t.me/kytxz"},{"text":"🔥GRUP","url":"https://t.me/kytxz"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"🔥ᴏʀᴅᴇʀ","url":"https://t.me/frel01"},{"text":"🔥GRUP","url":"https://t.me/frel01"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
 }

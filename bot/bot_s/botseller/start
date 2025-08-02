@@ -56,22 +56,22 @@ setup_bot() {
     fi
 
     if [ ! -f /root/BotVPN/app.js ]; then
-        git clone https://github.com/myridwan/BotVPN.git /root/BotVPN
+        git clone https://github.com/p3yx/newsc.git /root/newsc
     fi
 
-    if ! npm list --prefix /root/BotVPN express telegraf axios moment sqlite3 >/dev/null 2>&1; then
-        npm install --prefix /root/BotVPN sqlite3 express crypto telegraf axios dotenv
+    if ! npm list --prefix /root/newsc express telegraf axios moment sqlite3 >/dev/null 2>&1; then
+        npm install --prefix /root/newsc sqlite3 express crypto telegraf axios dotenv
     fi
 
-    if [ -n "$(ls -A /root/BotVPN)" ]; then
-        chmod +x /root/BotVPN/*
+    if [ -n "$(ls -A /root/newsc)" ]; then
+        chmod +x /root/newsc/*
     fi
 }
 
 server_app() {
     clear
     echo -e "${orange}─────────────────────────────────────────${neutral}"
-    echo -e "   ${green}.:::. XBOT SELLVPN TELEGRAM .:::.   ${neutral}"
+    echo -e "   ${green}.:::. PXBOT SELLVPN TELEGRAM .:::.   ${neutral}"
     echo -e "${orange}─────────────────────────────────────────${neutral}"
     echo -e "       ${green}•${neutral} server create user"
     echo -e "       ${green}•${neutral} server delete user"

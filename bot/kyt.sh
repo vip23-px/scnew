@@ -52,7 +52,7 @@ cd
 
 # === Konfigurasi bot ===
 clear
-figlet "Xwan VPN" | lolcat
+figlet "PEYX" | lolcat
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m          ADD BOT PANEL          \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"

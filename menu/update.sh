@@ -111,7 +111,7 @@ TEXT="-------------------------------
 -------------------------------
 <b>IP VPS  :</b> ${MYIP} 
 <b>DOMAIN  :</b> ${domain}
-<b>Version :</b> ${serverV}
+<b>Version :</b> $PEYX
 <b>USER    :</b> ${username}
 <b>MASA    :</b> $certifacate DAY
 -------------------------------

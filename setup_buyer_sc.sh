@@ -94,10 +94,10 @@ function key2(){
         USERGIT=$(cat /etc/github/username)
         hhari=$(date -d "999 days" +"%Y-%m-%d")
         cd
-        git clone https://github.com/p3yx/newsc >/dev/null 2>&1
+        git clone https://github.com/myridwan/izinvps >/dev/null 2>&1
 		cd izinvps
-		sed -i "/# ADMIN/a ### ${author} ${hhari} ${MYIP} @VIP" /root/newsc/ipx
-        sed -i "/# SSHWS/a ### ${author} ${hhari} ${MYIP} ON SSHWS @VIP" /root/newsc/ip
+		sed -i "/# ADMIN/a ### ${author} ${hhari} ${MYIP} @VIP" /root/izinvps/ipx
+        sed -i "/# SSHWS/a ### ${author} ${hhari} ${MYIP} ON SSHWS @VIP" /root/izinvps/ip
         sleep 1
         git config --global user.email "${EMAILGIT}" >/dev/null 2>&1
         git config --global user.name "${USERGIT}" >/dev/null 2>&1

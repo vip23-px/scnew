@@ -15,7 +15,7 @@ LIGHT='\033[0;37m'
 # Getting
 
 # Download File Ohp
- wget -O /usr/local/bin/ohpserver "http://myrid.my.id/os/sshws/ohpserver"
+ wget -O /usr/local/bin/ohpserver "http://raw.githubusercontent.com/p3yx/newsc/sshws/ohpserver"
  chmod +x /usr/local/bin/ohpserver
 # Installing Service
 # SSH OHP Port 8181

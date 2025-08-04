@@ -55,16 +55,16 @@ setup_bot() {
         echo -e "${green}Node.js is already installed, skipping...${neutral}"
     fi
 
-    if [ ! -f /root/BotVPN/app.js ]; then
-        git clone https://github.com/myridwan/BotVPN.git /root/BotVPN
+    if [ ! -f /root/newsc/app.js ]; then
+        git clone https://github.com/p3yx/newsc.git /root/newsc
     fi
 
-    if ! npm list --prefix /root/BotVPN express telegraf axios moment sqlite3 >/dev/null 2>&1; then
-        npm install --prefix /root/BotVPN sqlite3 express crypto telegraf axios dotenv
+    if ! npm list --prefix /root/newsc express telegraf axios moment sqlite3 >/dev/null 2>&1; then
+        npm install --prefix /root/newsc sqlite3 express crypto telegraf axios dotenv
     fi
 
-    if [ -n "$(ls -A /root/BotVPN)" ]; then
-        chmod +x /root/BotVPN/*
+    if [ -n "$(ls -A /root/newsc)" ]; then
+        chmod +x /root/newsc/*
     fi
 }
 
@@ -103,14 +103,14 @@ server_app() {
             echo -e "${red}Nama keypaydisini tidak boleh kosong. Silakan coba lagi.${neutral}"
         fi
     done
-    rm -f /root/BotVPN/.vars.json
+    rm -f /root/newsc/.vars.json
     echo "{
   \"BOT_TOKEN\": \"$token\",
   \"USER_ID\": \"$adminid\",
   \"PAYDISINI_KEY\": \"$keypaydisini\",
   \"NAMA_STORE\": \"$namastore\",
   \"PORT\": \"50123\"
-}" >/root/BotVPN/.vars.json
+}" >/root/newsc/.vars.json
     cat >/etc/systemd/system/sellvpn.service <<EOF
 [Unit]
 Description=App Bot sellvpn Service
@@ -130,9 +130,9 @@ EOF
 echo '#!/bin/bash' >/usr/bin/server_sellvpn
 echo "USER_ID=$adminid" >>/usr/bin/server_sellvpn
 echo "BOT_TOKEN=$token" >>/usr/bin/server_sellvpn
-echo 'curl -s -F chat_id="$USER_ID" -F document=@"/root/BotVPN/sellvpn.db" "https://api.telegram.org/bot$BOT_TOKEN/sendDocument" >/dev/null 2>&1' >>/usr/bin/server_sellvpn
+echo 'curl -s -F chat_id="$USER_ID" -F document=@"/root/newsc/sellvpn.db" "https://api.telegram.org/bot$BOT_TOKEN/sendDocument" >/dev/null 2>&1' >>/usr/bin/server_sellvpn
 echo '#!/bin/bash' >/usr/bin/sellvpn
-echo "cd /root/BotVPN" >>/usr/bin/sellvpn
+echo "cd /root/newsc" >>/usr/bin/sellvpn
 echo "node app.js" >>/usr/bin/sellvpn
 chmod +x /usr/bin/server_sellvpn
 chmod +x /usr/bin/sellvpn

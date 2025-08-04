@@ -21,7 +21,7 @@ fi
 # Link Hosting Kalian
 sudo apt install python3
 
-wget -O /usr/local/bin/ws "http://p3yx/newsc/sshws/ws"
+wget -O /usr/local/bin/ws "http://raw.githubusercontent.com/p3yx/newsc/sshws/ws"
 chmod +x /usr/local/bin/ws
 
 # Installing Service

@@ -30,12 +30,12 @@
 ```
 ✨ Selamat menggunakan layanan kami! ✨
 
-### CONTACT XWAN <br>
+### CONTACT PEYX <br>
 
 Jika Anda memiliki pertanyaan atau masalah, silakan hubungi kami di
 
-<a href="https://t.me/kytxz" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br><a href="https://wa.me/6282326322300" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Whatsapp&label=Whatsapp&message=Click%20Here&color=green"></a><br>
+<a href="https://t.me/frel01" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Telegram&label=Telegram&message=Click%20Here&color=blue"></a><br><a href="https://wa.me/6283151636921" target=”_blank”><img src="https://img.shields.io/static/v1?style=for-the-badge&logo=Whatsapp&label=Whatsapp&message=Click%20Here&color=green"></a><br>
 <br>
-<h1 align="center"> ✧ Thanks To XWAN_STORE ✧ </h1>
+<h1 align="center"> ✧ Thanks To PEYX_STORE ✧ </h1>
 <br>
 <h3 align="center"> © Copyright by FTVPN </h3>

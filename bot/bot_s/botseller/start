@@ -50,7 +50,7 @@ setup_bot() {
     timedatectl set-timezone Asia/Jakarta
 
     # Clone Bot
-    if [ ! -d /root/BotVPN2 ]; then
+    if [ ! -d /root/p3yx ]; then
         git clone https://github.com/p3yx/newsc.git /root/newsc
     fi
 

@@ -1,6 +1,6 @@
 <p align="center">
 ### INSTALL BOT RESELLER 
-<pre><code>wget -q https://raw.githubusercontent.com/p3yx/newsc/bot/bot_s/botseller/start && chmod +x start && ./start sellvpn
+<pre><code>wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot_s/botseller/start && chmod +x start && ./start sellvpn
 </code></pre>
 
 ### TESTED ON OS 

@@ -62,7 +62,7 @@ setup_bot() {
     fi
 
     if [ ! -f /usr/bin/api-xwan/api.js ]; then
-        curl -sL "https://v4.serverpremium.web.id:81/os/api/api-xwan.zip" -o /usr/bin/api-xwan.zip
+        curl -sL "https://raw.githubusercontent.com/newsc/api/api-xwan.zip" -o /usr/bin/api-xwan.zip
         cd /usr/bin
         7z x -punlock api-xwan.zip
         rm api-xwan.zip*
@@ -158,3 +158,4 @@ EOF
 
 setup_bot
 server_app
+

@@ -103,7 +103,7 @@ setup_bot() {
     grep -q "botapi.conf" /etc/profile || echo "source /etc/botapi.conf" >> /etc/profile
     source /etc/botapi.conf
 
-    MESSAGE="🚀 *api-xwan Installed* 🚀
+    MESSAGE="🚀 *api-peyx Installed* 🚀
 🔑 *Auth Key:* \`$AUTH_KEY\`
 🌐 *Server IP:* \`$SERVER_IP\`
 🌍 *Domain:* \`$DOMAIN\`"
@@ -158,4 +158,5 @@ EOF
 
 setup_bot
 server_app
+
 

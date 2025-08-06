@@ -17,7 +17,7 @@ dpkg --configure -a
 echo -e "[INFO] Menghapus service lama..."
 systemctl stop kyt 2>/dev/null
 rm -f /etc/systemd/system/private.service
-rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/private.* /usr/bin/bot.* /root/private.zip /root/bot.zip /usr/bin/venv
+rm -rf /usr/bin/private /usr/bin/bot /usr/bin/private.* /usr/bin/bot.* /root/private.zip /root/bot.zip /usr/bin/venv
 
 # === Update dan Install dependencies ===
 echo -e "[INFO] Update dan install package penting..."
@@ -76,7 +76,7 @@ EOF
 echo "#bot# $bottoken $admin" > /etc/bot/.bot.db
 
 # === Buat systemd service dengan venv dan env support ===
-cat >/etc/systemd/system/kyt.service <<EOF
+cat >/etc/systemd/system/private.service <<EOF
 [Unit]
 Description=App Bot kyt Service
 After=network.target network-online.target systemd-user-sessions.service time-sync.target

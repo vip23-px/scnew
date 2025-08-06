@@ -40,7 +40,7 @@ wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/private.zip
 unzip -o private.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
-rm -rf bot private.zip
+rm -rf bot bot.zip
 
 # === Download dan pasang kyt ===
 echo -e "[INFO] Download & pasang kyt..."

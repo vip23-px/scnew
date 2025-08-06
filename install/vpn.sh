@@ -4,7 +4,7 @@
 # By PEYX VPN 
 # ==================================================
 # Link Hosting Kalian
-REPO="https://github.com/p3yx/newsc/"
+REPO="https://raw.githubusercontent.com/p3yx/newsc/"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive

@@ -45,8 +45,8 @@ rm -rf bot bot.zip
 # === Download dan pasang kyt ===
 echo -e "[INFO] Download & pasang kyt..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/private.zip
-unzip -o kyt.zip -d /usr/bin/
-cd /usr/bin/kyt
+unzip -o private.zip -d /usr/bin/
+cd /usr/bin/private
 /usr/bin/venv/bin/pip install -r requirements.txt
 cd
 
@@ -65,7 +65,7 @@ read -e -p "[*] Masukkan ID Telegram Anda : " admin
 
 # === Simpan file variabel environment ===
 mkdir -p /etc/bot
-cat <<EOF > /usr/bin/kyt/var.txt
+cat <<EOF > /usr/bin/private/var.txt
 BOT_TOKEN="$bottoken"
 ADMIN="$admin"
 DOMAIN="$domain"
@@ -89,7 +89,7 @@ Restart=always
 User=root
 Environment=PATH=/usr/bin:/usr/local/bin:/usr/bin/venv/bin
 Environment=PYTHONUNBUFFERED=1
-EnvironmentFile=/usr/bin/kyt/var.txt
+EnvironmentFile=/usr/bin/private/var.txt
 WorkingDirectory=/usr/bin
 StandardOutput=journal
 StandardError=journal
@@ -101,7 +101,7 @@ EOF
 
 # === Aktifkan service ===
 systemctl daemon-reload
-systemctl enable --now kyt
+systemctl enable --now pprivate
 
 # === Output selesai ===
 clear

@@ -45,8 +45,8 @@ rm -rf bot bot.zip
 # === Download dan pasang kyt ===
 echo -e "[INFO] Download & pasang kyt..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/public.zip
-unzip -o kyt.zip -d /usr/bin/
-cd /usr/bin/kyt
+unzip -o public.zip -d /usr/bin/
+cd /usr/bin/public
 /usr/bin/venv/bin/pip install -r requirements.txt
 cd
 
@@ -65,7 +65,7 @@ read -e -p "[*] Masukkan ID Telegram Anda : " admin
 
 # === Simpan file variabel environment ===
 mkdir -p /etc/bot
-cat <<EOF > /usr/bin/kyt/var.txt
+cat <<EOF > /usr/bin/public/var.txt
 BOT_TOKEN="$bottoken"
 ADMIN="$admin"
 DOMAIN="$domain"
@@ -76,7 +76,7 @@ EOF
 echo "#bot# $bottoken $admin" > /etc/bot/.bot.db
 
 # === Buat systemd service dengan venv dan env support ===
-cat >/etc/systemd/system/kyt.service <<EOF
+cat >/etc/systemd/system/public.service <<EOF
 [Unit]
 Description=App Bot kyt Service
 After=network.target network-online.target systemd-user-sessions.service time-sync.target
@@ -84,12 +84,12 @@ Wants=network-online.target
 
 [Service]
 ExecStartPre=/bin/sleep 5
-ExecStart=/bin/bash -c 'source /usr/bin/venv/bin/activate && python3 -m kyt'
+ExecStart=/bin/bash -c 'source /usr/bin/venv/bin/activate && python3 -m public'
 Restart=always
 User=root
 Environment=PATH=/usr/bin:/usr/local/bin:/usr/bin/venv/bin
 Environment=PYTHONUNBUFFERED=1
-EnvironmentFile=/usr/bin/kyt/var.txt
+EnvironmentFile=/usr/bin/publc/var.txt
 WorkingDirectory=/usr/bin
 StandardOutput=journal
 StandardError=journal
@@ -101,7 +101,7 @@ EOF
 
 # === Aktifkan service ===
 systemctl daemon-reload
-systemctl enable --now kyt
+systemctl enable --now public
 
 # === Output selesai ===
 clear

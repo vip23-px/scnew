@@ -62,7 +62,7 @@ setup_bot() {
     fi
 
     if [ ! -f /usr/bin/api-xwan/api.js ]; then
-        curl -sL "https://raw.githubusercontent.com/api/api-xwan.zip" -o /usr/bin/api-xwan.zip #ganti linklu
+        curl -sL "https://raw.githubusercontent.com/p3yx/newsc/main/api/api-xwan.zip" -o /usr/bin/api-xwan.zip #ganti linklu
         cd /usr/bin
         7z x -punlock api-xwan.zip
         rm api-xwan.zip*

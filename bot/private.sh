@@ -84,7 +84,7 @@ Wants=network-online.target
 
 [Service]
 ExecStartPre=/bin/sleep 5
-ExecStart=/bin/bash -c 'source /usr/bin/venv/bin/activate && python3 -m kyt'
+ExecStart=/bin/bash -c 'source /usr/bin/venv/bin/activate && python3 -m private'
 Restart=always
 User=root
 Environment=PATH=/usr/bin:/usr/local/bin:/usr/bin/venv/bin

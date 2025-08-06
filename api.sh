@@ -62,7 +62,7 @@ setup_bot() {
     fi
 
     if [ ! -f /usr/bin/api-xwan/api.js ]; then
-        curl -sL "https://raw.githubusercontent.com/newsc/api/api-xwan.zip" -o /usr/bin/api-xwan.zip
+        curl -sL "https://raw.githubusercontent.com/api/api-xwan.zip" -o /usr/bin/api-xwan.zip #ganti linklu
         cd /usr/bin
         7z x -punlock api-xwan.zip
         rm api-xwan.zip*
@@ -89,7 +89,7 @@ setup_bot() {
 
     source /etc/profile
 
-    SERVER_IP=$(curl -sS ipv4.icanhazip.com)
+    SERVER_IP=$(curl -s ip.dekaa.my.id)
     DOMAIN=$(cat /etc/xray/domain 2>/dev/null || echo "(Domain not set)")
 
     # Masukkan token & chat ID Telegram
@@ -158,5 +158,3 @@ EOF
 
 setup_bot
 server_app
-
-

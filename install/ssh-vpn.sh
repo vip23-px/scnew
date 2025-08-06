@@ -7,8 +7,8 @@ apt dist-upgrade -y
 apt install netfilter-persistent -y
 apt-get remove --purge ufw firewalld -y
 apt install -y screen curl jq bzip2 gzip vnstat coreutils rsyslog iftop zip unzip git apt-transport-https build-essential -y
-REPO="http://myrid.my.id/os/"
-REPO2="https://raw.githubusercontent.com/juragansc1/os/main/install/"
+REPO="https://github.com/p3yx/newsc/"
+REPO2="https://raw.githubusercontent.com/p3yx/newsc/main/install/"
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
 MYIP=$(wget -qO- ipinfo.io/ip)
@@ -245,7 +245,7 @@ fi
 
 # Unduh file konfigurasi HAProxy
 echo "Mengunduh file konfigurasi HAProxy..."
-wget -O /etc/haproxy/haproxy.cfg "http://myrid.my.id/os/install/haproxy.cfg"
+wget -O /etc/haproxy/haproxy.cfg "http://raw.githubusercontent.com/p3yx/newsc/main/install/haproxy.cfg"
 
 # Reload daemon systemd
 echo "Memuat ulang daemon systemd..."
@@ -306,7 +306,7 @@ echo; echo -n 'Creating cron to run script every minute.....(Default setting)'
 echo '.....done'
 echo; echo 'Installation has completed.'
 echo 'Config file is at /usr/local/ddos/ddos.conf'
-echo 'Please send in your comments and/or suggestions to https://t.me/newbie_store24'
+echo 'Please send in your comments and/or suggestions to https://t.me/frel01'
 
 # banner /etc/issue.net
 echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config

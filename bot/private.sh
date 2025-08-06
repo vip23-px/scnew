@@ -16,8 +16,8 @@ dpkg --configure -a
 # === Hapus file/service lama ===
 echo -e "[INFO] Menghapus service lama..."
 systemctl stop kyt 2>/dev/null
-rm -f /etc/systemd/system/kyt.service
-rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/kyt.* /usr/bin/bot.* /root/kyt.zip /root/bot.zip /usr/bin/venv
+rm -f /etc/systemd/system/private.service
+rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/private.* /usr/bin/bot.* /root/private.zip /root/bot.zip /usr/bin/venv
 
 # === Update dan Install dependencies ===
 echo -e "[INFO] Update dan install package penting..."
@@ -30,17 +30,17 @@ cd /usr/bin
 python3 -m venv venv
 source /usr/bin/venv/bin/activate
 pip install --upgrade pip
-pip install -r kyt/requirements.txt
-pip install kyt/requests
+pip install -r private/requirements.txt
+pip install private/requests
 pip install telethon paramiko
 
 # === Download dan pasang bot ===
 echo -e "[INFO] Download & pasang bot..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/private.zip
-unzip -o bot.zip
+unzip -o private.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
-rm -rf bot bot.zip
+rm -rf bot private.zip
 
 # === Download dan pasang kyt ===
 echo -e "[INFO] Download & pasang kyt..."

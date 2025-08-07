@@ -1,3 +1,102 @@
-z="
-";mDz='s://';VJz=' "Ke';SBz='rvic';oEz='━━━━';SFz='at B';KJz='ken ';jz='"[IN';YHz='s=ne';DCz='te d';nFz='[*] ';Hz='v/nu';qHz='e &&';nz='hkan';MEz='g ky';ZGz='="$N';jEz='lolc';DHz='ice';lBz='/usr';lDz='http';ZFz='r${N';fFz='e_bo';Xz='omai';iCz='olca';sBz='.* /';YIz='Stan';tGz='OF';ez='NC='\''';oz=' loc';Oz='ns/s';Tz='/nul';gCz='figl';Kz='$(ca';IEz='n/*';lGz='t.db';ADz='ent ';DGz='min';RJz=': $a';THz=' tim';nDz='raw.';qBz='n/ky';nCz='rtie';NBz='gure';uz='f /v';WEz='stal';XCz='fetc';aFz='] Ce';LIz='nv/b';xIz='yt';SCz='inst';qz='le A';TIz='ile=';AJz='92mI';GEz='chmo';AIz='User';qCz='pyth';MGz='BOT_';QFz='o}[*';GGz='c/bo';FGz='r -p';NCz='te &';HIz='sr/l';EBz='r/li';YJz='u di';ABz='-fro';NEz='t/ky';LJz=': $b';pz='k fi';sGz=' <<E';qFz=' Bot';vIz=' --n';WFz=' : @';hBz='rf /';rIz='-rel';uCz='uat ';QDz='-r k';wBz=' /ro';RCz='e -y';OIz='ONUN';vBz='.zip';XJz='/men';DDz='cd /';NIz='PYTH';uBz='/kyt';VEz='p in';vDz='/mai';OCz='& ap';UCz='-y u';jGz='/etc';uIz='able';sEz='[1;9';FJz='0m"';HFz='al C';nHz='in/b';IBz='verr';mIz='ti-u';Bz='(cat';fz='\e[0';ZIz='dard';mHz='t=/b';EIz='PATH';lHz='5';hCz='et l';dIz='al';vFz='bott';aEz='ment';kHz='eep ';fCz='url ';TFz='ot d';QHz='ser-';UEz='n/pi';tz='rm -';Zz='gren';rz='PT..';FEz='n';dGz='ot# ';vGz='t]';VCz='nzip';Rz='b 2>';fIz='r=jo';Ez='ay/d';oCz='s-co';BCz='venv';iBz='usr/';SDz='equi';BFz='   \';qGz='.ser';uGz='[Uni';BBz='nten';PEz=' -d ';lEz='"\03';ZHz='k-on';Mz='tc/s';bCz='3-pi';xHz='alwa';iHz='=/bi';FHz='r=ne';LEz='ip';Nz='lowd';RHz='sess';NHz='targ';vz='ar/l';XFz='BotF';OEz=' kyt';gHz='Star';EJz='!\e[';VIz='ingD';cBz='yste';dFz='@Mis';mEz='3[1;';PIz='BUFF';QBz='hapu';HEz='d +x';NGz='TOKE';hDz='g bo';BIz='=roo';GBz='kg/s';eIz='Erro';GIz='n:/u';PHz='md-u';SGz='DOMA';pIz='l da';UFz='an T';cCz='p gi';bFz='k ID';aBz='ll';HHz='k.ta';sIz='oad';rFz=' Tok';YFz='athe';FIz='=/us';hz='echo';dDz='Down';yBz='ot.z';VGz='ain"';wCz='ual ';JGz='F > ';GCz='ll p';iFz='tah ';gFz='t, p';WJz='tik ';fBz='t.se';oBz=' /us';QIz='ERED';hHz='tPre';dBz='md/s';DEz='mv b';ZEz='uire';jDz='wget';tBz='root';MCz='upda';IIz='ocal';OHz='et s';hIz='l';OBz=' -a';iGz='" > ';xCz='envi';JFz='e Bo';TDz='reme';VDz='txt';KGz='/var';HCz='acka';PCz='t up';wEz='ADD ';XGz='B"';WHz='arge';KEz='ot b';vHz='Rest';Iz='ll)';CIz='Envi';pFz='kkan';KCz='ng..';uFz=': " ';LBz=' --c';ZDz='tele';QGz='admi';cFz='m : ';BJz='lasi';PBz='Meng';CBz='d /v';QEz='/';gz='m'\''';UBz='ma..';yEz='PANE';vEz='    ';KBz='dpkg';kBz='kyt ';ODz='e pi';GHz='twor';uHz='kyt'\''';IJz='="';aDz=' par';YCz='h py';eBz='m/ky';sHz='hon3';PDz='p';XBz='l st';gDz='asan';yFz='gram';TCz='all ';eFz='sRos';GJz=' "==';FCz='nsta';aIz='Outp';dz='"';hFz='erin';Jz='PUB=';cHz='get';fDz=' & p';gEz='et "';LDz='ivat';iDz='t...';QCz='grad';eCz='et c';PFz='C}"';GDz='-m v';sDz='m/p3';UJz=': $d';Vz='doma';cDz='o';wHz='art=';DIz='ent=';CJz=' sel';YEz=' req';pBz='r/bi';cIz='ourn';YDz='ests';CEz=' bot';FFz='o}Tu';mz='ersi';aGz='S"';IHz='rget';yDz='t.zi';wDz='n/bo';fGz='toke';PGz='ADMI';ICz='ge p';bIz='ut=j';uDz='ewsc';wz='ib/d';tCz='env';hEz='PEYX';XHz='Want';kGz='/.bo';nGz='c/sy';oFz='Masu';HBz='tato';jFz='/inf';BDz='Pyth';EHz='Afte';AHz='App ';BHz='Bot ';mGz='>/et';OFz='m${N';tDz='yx/n';REz='kyt';yHz='ys';sFz='en A';YGz='HOST';Pz='erve';JHz=' net';LHz='-onl';UGz='$dom';bGz='EOF';KHz='work';Dz='c/xr';tIz='l en';CGz='" ad';iIz='[Ins';nBz='/bot';HJz='====';bEz='s.tx';JBz='ide';iEz='" | ';IDz='sour';TEz='v/bi';LCz='apt ';QJz='ID  ';MIz='in';nEz='36m━';dHz='[Ser';cGz=' "#b';rEz='" \e';rCz='on3.';qDz='erco';Sz='/dev';fEz='r';pGz='d/sy';IFz='reat';Gz='>/de';tFz='nda ';ZJz='m An';MJz='otto';hGz='dmin';tEz='7;10';TJz='main';XEz='l -r';kCz='ftwa';bz='\e[9';Wz='in=$';oGz='stem';jBz='bin/';lFz='read';WIz='irec';JCz='enti';LFz='n ID';RBz='s se';KFz='t da';xGz='ript';NJz='ken"';CHz='Serv';RDz='yt/r';VBz='syst';VFz='oken';RIz='=1';jCz='t so';gBz='e';BEz='p -o';DBz=' /va';WBz='emct';RFz='] Bu';jIz='tall';GFz='tori';EFz='renb';SEz='/ven';kz='FO] ';IGz='<<EO';RGz='n"';eEz='clea';uEz='1m  ';CFz='e[0m';lIz='=mul';yGz='ion=';az='bo="';ZBz='yt 2';TBz='e la';oIz='et';SHz='ions';lz='Memb';PJz='min ';mFz='-p "';yCz='ronm';FDz='on3 ';MHz='ine.';EGz='mkdi';qEz='3[0m';FBz='b/dp';tHz=' -m ';NFz='egra';AFz='L   ';CCz='Upda';kEz='at';iz=' -e ';UDz='nts.';VHz='nc.t';xEz='BOT ';eHz=']';lCz='re-p';AGz=' And';jHz='n/sl';XIz='tory';HDz='env ';LGz='.txt';oHz='ash ';Fz='ns 2';oDz='gith';MDz='pip ';MFz=' Tel';xFz='Tele';XDz='requ';wGz='Desc';cEz='t';xDz='t/bo';Uz='l)';UHz='e-sy';EEz='ot/*';YBz='op k';Qz='r.pu';JEz='rf b';xz='pkg/';wFz=' ID ';OJz=' "Ad';rHz=' pyt';mBz='/bin';aCz='3 py';WCz=' neo';pCz='mmon';mCz='rope';bBz='f /e';WDz='kyt/';bHz='.tar';pHz='-c '\''';KIz='n/ve';vCz='virt';SIz='entF';fHz='Exec';AEz='unzi';pEz='━\03';JIz=':/us';WGz='"$PU';HGz='cat ';yIz='"\e[';Lz='t /e';aJz='da"';pDz='ubus';yz='lock';UIz='Work';SJz=' "Do';ACz='ip /';aHz='line';EDz='bin';OGz='N="$';CDz='on..';Az='NS=$';ECz='an i';KDz='/act';cz='2;1m';dCz='t wg';dEz='cd';Yz='n 2>';kFz='o${N';MBz='onfi';DJz='esai';xBz='ot/b';rGz='vice';eDz='load';NDz='--up';JJz=' "To';qIz='emon';wIz='ow k';kIz='edBy';TGz='IN="';BGz='a : ';kDz=' -q ';Cz=' /et';eGz='$bot';gGz='n $a';DFz='"${g';JDz='ce /';ZCz='thon';gIz='urna';bDz='amik';rBz='t.* ';nIz='ser.';sCz='12-v';sz='."';rDz='t.co';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$z$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$z$Vz$Wz$Bz$Cz$Dz$Ez$Xz$Yz$Sz$Tz$Uz$z$Zz$az$bz$cz$dz$z$ez$fz$gz$z$hz$iz$jz$kz$lz$mz$nz$oz$pz$qz$rz$sz$z$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$vz$wz$xz$yz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$z$KBz$LBz$MBz$NBz$OBz$z$hz$iz$jz$kz$PBz$QBz$RBz$SBz$TBz$UBz$sz$z$VBz$WBz$XBz$YBz$ZBz$Gz$Hz$aBz$z$tz$bBz$Mz$cBz$dBz$cBz$eBz$fBz$SBz$gBz$z$tz$hBz$iBz$jBz$kBz$lBz$mBz$nBz$oBz$pBz$qBz$rBz$lBz$mBz$nBz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$ACz$iBz$jBz$BCz$z$hz$iz$jz$kz$CCz$DCz$ECz$FCz$GCz$HCz$ICz$JCz$KCz$sz$z$LCz$MCz$NCz$OCz$PCz$QCz$RCz$z$LCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$ZCz$aCz$ZCz$bCz$cCz$dCz$eCz$fCz$gCz$hCz$iCz$jCz$kCz$lCz$mCz$nCz$oCz$pCz$z$LCz$SCz$TCz$qCz$rCz$sCz$tCz$z$hz$iz$jz$kz$lz$uCz$vCz$wCz$xCz$yCz$ADz$BDz$CDz$sz$z$DDz$iBz$EDz$z$qCz$FDz$GDz$HDz$BCz$z$IDz$JDz$iBz$jBz$BCz$mBz$KDz$LDz$gBz$z$MDz$SCz$TCz$NDz$QCz$ODz$PDz$z$MDz$SCz$TCz$QDz$RDz$SDz$TDz$UDz$VDz$z$MDz$SCz$TCz$WDz$XDz$YDz$z$MDz$SCz$TCz$ZDz$ZCz$aDz$bDz$cDz$z$hz$iz$jz$kz$dDz$eDz$fDz$gDz$hDz$iDz$dz$z$jDz$kDz$lDz$mDz$nDz$oDz$pDz$qDz$BBz$rDz$sDz$tDz$uDz$vDz$wDz$xDz$yDz$PDz$z$AEz$BEz$CEz$vBz$z$DEz$EEz$oBz$pBz$FEz$z$GEz$HEz$oBz$pBz$IEz$z$tz$JEz$KEz$yBz$LEz$z$hz$iz$jz$kz$dDz$eDz$fDz$gDz$MEz$iDz$dz$z$jDz$kDz$lDz$mDz$nDz$oDz$pDz$qDz$BBz$rDz$sDz$tDz$uDz$vDz$wDz$NEz$yDz$PDz$z$AEz$BEz$OEz$vBz$PEz$lBz$mBz$QEz$z$DDz$iBz$jBz$REz$z$lBz$mBz$SEz$TEz$UEz$VEz$WEz$XEz$YEz$ZEz$aEz$bEz$cEz$z$dEz$z$eEz$fEz$z$gCz$gEz$hEz$iEz$jEz$kEz$z$hz$iz$lEz$mEz$nEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$pEz$qEz$dz$z$hz$iz$rEz$sEz$tEz$uEz$vEz$vEz$wEz$xEz$yEz$AFz$vEz$BFz$CFz$dz$z$hz$iz$lEz$mEz$nEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$pEz$qEz$dz$z$hz$iz$DFz$EFz$FFz$GFz$HFz$IFz$JFz$KFz$LFz$MFz$NFz$OFz$PFz$z$hz$iz$DFz$EFz$QFz$RFz$SFz$TFz$UFz$VFz$WFz$XFz$YFz$ZFz$PFz$z$hz$iz$DFz$EFz$QFz$aFz$bFz$MFz$NFz$cFz$dFz$eFz$fFz$gFz$hFz$iFz$jFz$kFz$PFz$z$hz$iz$lEz$mEz$nEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$oEz$pEz$qEz$dz$z$lFz$iz$mFz$nFz$oFz$pFz$qFz$rFz$sFz$tFz$uFz$vFz$VFz$z$lFz$iz$mFz$nFz$oFz$pFz$wFz$xFz$yFz$AGz$BGz$CGz$DGz$z$EGz$FGz$Cz$GGz$cEz$z$HGz$IGz$JGz$lBz$mBz$uBz$KGz$LGz$z$MGz$NGz$OGz$vFz$VFz$dz$z$PGz$OGz$QGz$RGz$z$SGz$TGz$UGz$VGz$z$Jz$WGz$XGz$z$YGz$ZGz$aGz$z$bGz$z$hz$cGz$dGz$eGz$fGz$gGz$hGz$iGz$jGz$nBz$kGz$lGz$z$HGz$mGz$nGz$oGz$pGz$oGz$uBz$qGz$rGz$sGz$tGz$z$uGz$vGz$z$wGz$xGz$yGz$AHz$BHz$kBz$CHz$DHz$z$EHz$FHz$GHz$HHz$IHz$JHz$KHz$LHz$MHz$NHz$OHz$cBz$PHz$QHz$RHz$SHz$qGz$rGz$THz$UHz$VHz$WHz$cEz$z$XHz$YHz$GHz$ZHz$aHz$bHz$cHz$z$dHz$rGz$eHz$z$fHz$gHz$hHz$iHz$jHz$kHz$lHz$z$fHz$gHz$mHz$nHz$oHz$pHz$IDz$JDz$iBz$jBz$BCz$mBz$KDz$LDz$qHz$rHz$sHz$tHz$uHz$z$vHz$wHz$xHz$yHz$z$AIz$BIz$cEz$z$CIz$yCz$DIz$EIz$FIz$pBz$GIz$HIz$IIz$mBz$JIz$pBz$KIz$LIz$MIz$z$CIz$yCz$DIz$NIz$OIz$PIz$QIz$RIz$z$CIz$yCz$SIz$TIz$lBz$mBz$uBz$KGz$LGz$z$UIz$VIz$WIz$XIz$FIz$pBz$FEz$z$YIz$ZIz$aIz$bIz$cIz$dIz$z$YIz$ZIz$eIz$fIz$gIz$hIz$z$iIz$jIz$eHz$z$XHz$kIz$lIz$mIz$nIz$NHz$oIz$z$bGz$z$VBz$WBz$pIz$qIz$rIz$sIz$z$VBz$WBz$tIz$uIz$vIz$wIz$xIz$z$eEz$fEz$z$hz$iz$yIz$AJz$FCz$BJz$CJz$DJz$EJz$FJz$z$hz$GJz$HJz$HJz$HJz$HJz$HJz$HJz$HJz$IJz$z$hz$JJz$KJz$BHz$vEz$LJz$MJz$NJz$z$hz$OJz$PJz$QJz$vEz$RJz$hGz$dz$z$hz$SJz$TJz$vEz$vEz$UJz$Xz$RGz$z$hz$GJz$HJz$HJz$HJz$HJz$HJz$HJz$HJz$IJz$z$hz$VJz$WJz$XJz$YJz$qFz$MFz$NFz$ZJz$aJz"
+#!/bin/bash
+NS=$(cat /etc/xray/dns 2>/dev/null)
+PUB=$(cat /etc/slowdns/server.pub 2>/dev/null)
+domain=$(cat /etc/xray/domain 2>/dev/null)
+grenbo="\e[92;1m"
+NC='\e[0m'
+
+echo -e "[INFO] Membersihkan lock file APT..."
+rm -f /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock /var/lib/dpkg/statoverride
+dpkg --configure -a
+
+echo -e "[INFO] Menghapus service lama..."
+systemctl stop kyt 2>/dev/null
+rm -f /etc/systemd/system/kyt.service
+rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/kyt.* /usr/bin/bot.* /root/kyt.zip /root/bot.zip /usr/bin/venv
+
+echo -e "[INFO] Update dan install package penting..."
+apt update && apt upgrade -y
+apt install -y unzip neofetch python3 python3-pip git wget curl figlet lolcat software-properties-common
+apt install -y python3.12-venv
+
+echo -e "[INFO] Membuat virtual environment Python..."
+cd /usr/bin
+python3 -m venv venv
+source /usr/bin/venv/bin/activate
+pip install --upgrade pip
+pip install -r kyt/requirements.txt
+pip install kyt/requests
+pip install telethon paramiko
+
+echo -e "[INFO] Download & pasang bot..."
+wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot.zip
+unzip -o bot.zip
+mv bot/* /usr/bin
+chmod +x /usr/bin/*
+rm -rf bot bot.zip
+
+echo -e "[INFO] Download & pasang kyt..."
+wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/kyt.zip
+unzip -o kyt.zip -d /usr/bin/
+cd /usr/bin/kyt
+/usr/bin/venv/bin/pip install -r requirements.txt
+cd
+
+clear
+figlet "PEYX" | lolcat
+echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e " \e[1;97;101m          ADD BOT PANEL          \e[0m"
+echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+echo -e "${grenbo}Tutorial Create Bot dan ID Telegram${NC}"
+echo -e "${grenbo}[*] Buat Bot dan Token : @BotFather${NC}"
+echo -e "${grenbo}[*] Cek ID Telegram : @MissRose_bot, perintah /info${NC}"
+echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
+
+read -e -p "[*] Masukkan Bot Token Anda : " bottoken
+read -e -p "[*] Masukkan ID Telegram (pisahkan dengan koma jika lebih dari satu) : " admin
+
+mkdir -p /etc/bot
+
+cat <<EOF > /usr/bin/kyt/var.txt
+BOT_TOKEN="$bottoken"
+ADMIN="$admin"
+DOMAIN="$domain"
+PUB="$PUB"
+HOST="$NS"
+EOF
+
+echo "#bot# $bottoken $admin" > /etc/bot/.bot.db
+
+cat >/etc/systemd/system/kyt.service <<EOF
+[Unit]
+Description=App Bot kyt Service
+After=network.target network-online.target systemd-user-sessions.service time-sync.target
+Wants=network-online.target
+
+[Service]
+ExecStartPre=/bin/sleep 5
+ExecStart=/bin/bash -c 'source /usr/bin/venv/bin/activate && python3 -m kyt'
+Restart=always
+User=root
+Environment=PATH=/usr/bin:/usr/local/bin:/usr/bin/venv/bin
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/usr/bin/kyt/var.txt
+WorkingDirectory=/usr/bin
+StandardOutput=journal
+StandardError=journal
+
+[Install]
+WantedBy=multi-user.target
+EOF
+
+systemctl daemon-reload
+systemctl enable --now kyt
+
+clear
+echo -e "\e[92mInstalasi selesai!\e[0m"
+echo "==============================="
+echo "Token Bot     : $bottoken"
+echo "Admin ID(s)   : $admin"
+echo "Domain        : $domain"
+echo "==============================="
+echo "Ketik /menu di Bot Telegram Anda"

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# ====== Konfigurasi Password ZIP ======
-PASS_BOT="@Peyx23"
-PASS_KYT="@Peyx23"
+# ====== Konfigurasi Password 7z ======
+PASS_BOT="@Peyx"
+PASS_KYT="@Peyx"
 # ======================================
 
 # Ambil data server
@@ -21,12 +21,12 @@ dpkg --configure -a
 echo -e "[INFO] Menghapus service lama..."
 systemctl stop kyt 2>/dev/null
 rm -f /etc/systemd/system/kyt.service
-rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/kyt.* /usr/bin/bot.* /root/kyt.zip /root/bot.zip /usr/bin/venv
+rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/kyt.* /usr/bin/bot.* /root/kyt.7z /root/bot.7z /usr/bin/venv
 
 # Install paket penting
 echo -e "[INFO] Update dan install package penting..."
 apt update && apt upgrade -y
-apt install -y unzip neofetch python3 python3-pip git wget curl figlet lolcat software-properties-common
+apt install -y p7zip-full neofetch python3 python3-pip git wget curl figlet lolcat software-properties-common
 apt install -y python3.12-venv
 
 # Virtual environment
@@ -39,26 +39,26 @@ pip install telethon paramiko
 
 # Download & pasang bot
 echo -e "[INFO] Download & pasang bot..."
-wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot.zip
-if unzip -tP "$PASS_BOT" bot.zip >/dev/null 2>&1; then
-    unzip -oP "$PASS_BOT" bot.zip
+wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot.7z
+if 7z t bot.7z -p"$PASS_BOT" >/dev/null 2>&1; then
+    7z x bot.7z -p"$PASS_BOT" -y >/dev/null
     mv bot/* /usr/bin
     chmod +x /usr/bin/*
-    rm -rf bot bot.zip
+    rm -rf bot bot.7z
 else
-    echo -e "\e[91mPassword bot.zip salah atau file corrupt! Instalasi dibatalkan.\e[0m"
+    echo -e "\e[91mPassword bot.7z salah atau file corrupt! Instalasi dibatalkan.\e[0m"
     exit 1
 fi
 
 # Download & pasang kyt
 echo -e "[INFO] Download & pasang kyt..."
-wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/kyt.zip
-if unzip -tP "$PASS_KYT" kyt.zip >/dev/null 2>&1; then
-    unzip -oP "$PASS_KYT" kyt.zip -d /usr/bin/
+wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/kyt.7z
+if 7z t kyt.7z -p"$PASS_KYT" >/dev/null 2>&1; then
+    7z x kyt.7z -p"$PASS_KYT" -o/usr/bin/ -y >/dev/null
     cd /usr/bin/kyt
     /usr/bin/venv/bin/pip install -r requirements.txt
 else
-    echo -e "\e[91mPassword kyt.zip salah atau file corrupt! Instalasi dibatalkan.\e[0m"
+    echo -e "\e[91mPassword kyt.7z salah atau file corrupt! Instalasi dibatalkan.\e[0m"
     exit 1
 fi
 cd

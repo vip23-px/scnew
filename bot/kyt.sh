@@ -37,12 +37,36 @@ source /usr/bin/venv/bin/activate
 pip install --upgrade pip
 
 echo -e "[INFO] Download & pasang bot..."
-wget -q https://github.com/p3yx/newsc/main/bot/bot.zip
+wget -q https://raw.githubusercontent/p3yx/newsc/main/bot/bot.zip
 
 # Unzip dengan 7z dan password otomatis
+#!/bin/bash
+
+# [Bagian awal script tetap sama...]
+
+# Password untuk file zip (pastikan formatnya benar)
+BOT_ZIP_PASSWORD="'password_bot'"
+KYT_ZIP_PASSWORD="'password_kyt'"
+
+# [Bagian instalasi 7z tetap sama...]
+
+echo -e "[INFO] Download & pasang bot..."
+wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot.zip
+
+# Unzip dengan 7z dan handling khusus
 echo -e "[INFO] Mengekstrak bot.zip..."
-if ! 7z x -p"$BOT_ZIP_PASSWORD" -o/usr/bin bot.zip -y; then
-    echo -e "${grenbo}[ERROR] Gagal mengekstrak bot.zip - Password salah atau file corrupt.${NC}"
+7z x -p$BOT_ZIP_PASSWORD -o/usr/bin bot.zip -y -bso0 -bse1
+EXIT_CODE=$?
+if [ $EXIT_CODE -eq 0 ]; then
+    echo -e "${grenbo}[SUCCESS] Berhasil mengekstrak bot.zip${NC}"
+elif [ $EXIT_CODE -eq 2 ]; then
+    echo -e "${grenbo}[WARNING] File bot.zip sudah ada, melanjutkan...${NC}"
+elif [ $EXIT_CODE -eq 7 ]; then
+    echo -e "${grenbo}[ERROR] Password salah untuk bot.zip${NC}"
+    echo -e "${grenbo}[DEBUG] Password yang digunakan: ${BOT_ZIP_PASSWORD}${NC}"
+    exit 1
+else
+    echo -e "${grenbo}[ERROR] Gagal mengekstrak bot.zip (Code: $EXIT_CODE)${NC}"
     exit 1
 fi
 
@@ -50,14 +74,24 @@ chmod +x /usr/bin/*
 rm -f bot.zip
 
 echo -e "[INFO] Download & pasang kyt..."
-wget -q https://github.com/p3yx/newsc/main/bot/kyt.zip
+wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/kyt.zip
 
-# Unzip dengan 7z dan password otomatis
-echo -e "[INFO] Mengekstrak kyt.zip..."
-if ! 7z x -p"$KYT_ZIP_PASSWORD" -o/usr/bin kyt.zip -y; then
-    echo -e "${grenbo}[ERROR] Gagal mengekstrak kyt.zip - Password salah atau file corrupt.${NC}"
+echo -e "[INFO] Mengekstrak bot.zip..."
+7z x -p$BOT_ZIP_PASSWORD -o/usr/bin bot.zip -y -bso0 -bse1
+EXIT_CODE=$?
+if [ $EXIT_CODE -eq 0 ]; then
+    echo -e "${grenbo}[SUCCESS] Berhasil mengekstrak bot.zip${NC}"
+elif [ $EXIT_CODE -eq 2 ]; then
+    echo -e "${grenbo}[WARNING] File bot.zip sudah ada, melanjutkan...${NC}"
+elif [ $EXIT_CODE -eq 7 ]; then
+    echo -e "${grenbo}[ERROR] Password salah untuk bot.zip${NC}"
+    echo -e "${grenbo}[DEBUG] Password yang digunakan: ${BOT_ZIP_PASSWORD}${NC}"
+    exit 1
+else
+    echo -e "${grenbo}[ERROR] Gagal mengekstrak bot.zip (Code: $EXIT_CODE)${NC}"
     exit 1
 fi
+
 
 cd /usr/bin/kyt
 /usr/bin/venv/bin/pip install -r requirements.txt

@@ -3,21 +3,24 @@ PUB=$(cat /etc/slowdns/server.pub 2>/dev/null)
 domain=$(cat /etc/xray/domain 2>/dev/null)
 grenbo="\e[92;1m"
 NC='\e[0m'
+pwadm="Peyx23"
 
+if ! command -v 7z &> /dev/null; then
+echo -e " [INFO] Installing p7zip-full..."
+apt install p7zip-full -y &> /dev/null &
+loading $! "Loading Install p7zip-full"
+fi
 echo -e "[INFO] Membersihkan lock file APT..."
 rm -f /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock /var/lib/dpkg/statoverride
 dpkg --configure -a
-
 echo -e "[INFO] Menghapus service lama..."
 systemctl stop kyt 2>/dev/null
 rm -f /etc/systemd/system/kyt.service
 rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/kyt.* /usr/bin/bot.* /root/kyt.zip /root/bot.zip /usr/bin/venv
-
 echo -e "[INFO] Update dan install package penting..."
 apt update && apt upgrade -y
 apt install -y unzip neofetch python3 python3-pip git wget curl figlet lolcat software-properties-common
 apt install python3.12-venv
-
 echo -e "[INFO] Membuat virtual environment Python..."
 cd /usr/bin
 python3 -m venv venv
@@ -26,46 +29,21 @@ pip install --upgrade pip
 pip install -r kyt/requirements.txt
 pip install kyt/requests
 pip install telethon paramiko
-
-# Set password langsung di variabel
-password="Peyx23"
-
-echo -e "[INFO] Download bot.zip..."
+echo -e "[INFO] Download & pasang bot..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot.zip
-
-echo -e "[INFO] Verifikasi password bot.zip..."
-if ! unzip -t -P "$password" bot.zip >/dev/null 2>&1; then 
-    echo -e "\e[91m[ERROR] Password salah untuk bot.zip! Proses dibatalkan.\e[0m"
-    rm -f bot.zip
-    exit 1
-fi
-
-echo -e "[INFO] Ekstrak bot.zip..."
-unzip -o -P "$password" bot.zip
+7z x -p$pwadm bot.zip &> /dev/null #pastikan file menu.zip memiliki password yang sama
+unzip -o bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot bot.zip
-
-echo -e "[INFO] Download kyt.zip..."
+echo -e "[INFO] Download & pasang kyt..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/kyt.zip
-
-echo -e "[INFO] Verifikasi password kyt.zip..."
-if ! unzip -t -P "$password" kyt.zip >/dev/null 2>&1; then
-    echo -e "\e[91m[ERROR] Password salah untuk kyt.zip! Proses dibatalkan.\e[0m"
-    rm -f kyt.zip
-    exit 1
-fi
-
-echo -e "[INFO] Ekstrak kyt.zip..."
-unzip -o -P "$password" kyt.zip -d /usr/bin/
-rm -f kyt.zip
-
-
+7z x -p$pwadm kyt.zip &> /dev/null #pastikan file menu.zip memiliki password yang sama
+unzip -o kyt.zip -d /usr/bin/
 cd /usr/bin/kyt
 /usr/bin/venv/bin/pip install -r requirements.txt
 cd
 clear
-
 figlet "PEYX" | lolcat
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e " \e[1;97;101m          ADD BOT PANEL          \e[0m"
@@ -74,10 +52,8 @@ echo -e "${grenbo}Tutorial Create Bot dan ID Telegram${NC}"
 echo -e "${grenbo}[*] Buat Bot dan Token : @BotFather${NC}"
 echo -e "${grenbo}[*] Cek ID Telegram : @MissRose_bot, perintah /info${NC}"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-
 read -e -p "[*] Masukkan Bot Token Anda : " bottoken
 read -e -p "[*] Masukkan ID Telegram Anda : " admin
-
 mkdir -p /etc/bot
 cat <<EOF > /usr/bin/kyt/var.txt
 BOT_TOKEN="$bottoken"
@@ -86,15 +62,12 @@ DOMAIN="$domain"
 PUB="$PUB"
 HOST="$NS"
 EOF
-
 echo "#bot# $bottoken $admin" > /etc/bot/.bot.db
-
 cat >/etc/systemd/system/kyt.service <<EOF
 [Unit]
 Description=App Bot kyt Service
 After=network.target network-online.target systemd-user-sessions.service time-sync.target
 Wants=network-online.target
-
 [Service]
 ExecStartPre=/bin/sleep 5
 ExecStart=/bin/bash -c 'source /usr/bin/venv/bin/activate && python3 -m kyt'
@@ -106,15 +79,12 @@ EnvironmentFile=/usr/bin/kyt/var.txt
 WorkingDirectory=/usr/bin
 StandardOutput=journal
 StandardError=journal
-
 [Install]
 WantedBy=multi-user.target
 EOF
-
 systemctl daemon-reload
 systemctl enable --now kyt
 clear
-
 echo -e "\e[92mInstalasi selesai!\e[0m"
 echo "==============================="
 echo "Token Bot     : $bottoken"

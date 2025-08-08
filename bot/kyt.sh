@@ -1,55 +1,60 @@
 #!/bin/bash
 
-ZIP_PASS="Peyx23"  # Ganti dengan password asli file zip
+ZIP_PASS="Peyx23"  # Ganti dengan password file zip sebenarnya
 
+# Warna
+grenbo="\e[92;1m"
+NC='\e[0m'
+
+# Variabel konfigurasi
 NS=$(cat /etc/xray/dns 2>/dev/null)
 PUB=$(cat /etc/slowdns/server.pub 2>/dev/null)
 domain=$(cat /etc/xray/domain 2>/dev/null)
-grenbo="\e[92;1m"
-NC='\e[0m'
 
 echo -e "[INFO] Membersihkan lock file APT..."
 rm -f /var/lib/dpkg/lock-frontend /var/lib/dpkg/lock /var/lib/dpkg/statoverride
 dpkg --configure -a
 
-echo -e "[INFO] Menghapus service lama..."
+echo -e "[INFO] Menghapus sisa installasi lama..."
 systemctl stop kyt 2>/dev/null
 rm -f /etc/systemd/system/kyt.service
-rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/kyt.* /usr/bin/bot.* /root/kyt.zip /root/bot.zip /usr/bin/venv
+rm -rf /usr/bin/kyt /usr/bin/bot /usr/bin/kyt.* /usr/bin/bot.* /usr/bin/venv /etc/bot
+rm -rf bot.zip kyt.zip bot kyt
 
-echo -e "[INFO] Update dan install package penting..."
+echo -e "[INFO] Update & install package penting..."
 apt update && apt upgrade -y
-apt install -y unzip neofetch python3 python3-pip git wget curl figlet lolcat software-properties-common
-apt install python3.12-venv
+apt install -y unzip neofetch python3 python3-pip git wget curl figlet lolcat software-properties-common p7zip-full
+apt install -y python3.12-venv
 
-echo -e "[INFO] Membuat virtual environment Python..."
+echo -e "[INFO] Setup Python virtual environment..."
 cd /usr/bin
 python3 -m venv venv
 source /usr/bin/venv/bin/activate
 pip install --upgrade pip
 
-echo -e "[INFO] Download & verifikasi bot.zip..."
+echo -e "[INFO] Download dan ekstrak bot.zip..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot.zip -O bot.zip
-unzip -P "$ZIP_PASS" -o bot.zip >/dev/null 2>&1
+7z x -p$ZIP_PASS bot.zip -obot -y >/dev/null 2>&1
 if [ $? -ne 0 ]; then
-    echo -e "\e[91m[ERROR] Gagal mengekstrak bot.zip! Password salah atau file corrupt.\e[0m"
-    exit 1
+  echo -e "\e[91m[ERROR] Gagal ekstrak bot.zip! Password salah atau file rusak.\e[0m"
+  exit 1
 fi
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot bot.zip
 
-echo -e "[INFO] Download & verifikasi kyt.zip..."
+echo -e "[INFO] Download dan ekstrak kyt.zip..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/kyt.zip -O kyt.zip
-unzip -P "$ZIP_PASS" -o kyt.zip -d /usr/bin/ >/dev/null 2>&1
+7z x -p$ZIP_PASS kyt.zip -okyt -y >/dev/null 2>&1
 if [ $? -ne 0 ]; then
-    echo -e "\e[91m[ERROR] Gagal mengekstrak kyt.zip! Password salah atau file corrupt.\e[0m"
-    exit 1
+  echo -e "\e[91m[ERROR] Gagal ekstrak kyt.zip! Password salah atau file rusak.\e[0m"
+  exit 1
 fi
+mv kyt /usr/bin/kyt
 
-cd /usr/bin/kyt
-/usr/bin/venv/bin/pip install -r requirements.txt
-cd
+echo -e "[INFO] Install dependensi dari requirements.txt..."
+/usr/bin/venv/bin/pip install -r /usr/bin/kyt/requirements.txt
+/usr/bin/venv/bin/pip install telethon paramiko
 
 clear
 figlet "PEYX" | lolcat
@@ -61,6 +66,7 @@ echo -e "${grenbo}[*] Buat Bot dan Token : @BotFather${NC}"
 echo -e "${grenbo}[*] Cek ID Telegram : @MissRose_bot, perintah /info${NC}"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 
+# Input Token dan ID
 read -e -p "[*] Masukkan Bot Token Anda : " bottoken
 read -e -p "[*] Masukkan ID Telegram Anda : " admin
 
@@ -75,6 +81,7 @@ EOF
 
 echo "#bot# $bottoken $admin" > /etc/bot/.bot.db
 
+# Setup service systemd
 cat >/etc/systemd/system/kyt.service <<EOF
 [Unit]
 Description=App Bot kyt Service
@@ -101,7 +108,7 @@ systemctl daemon-reload
 systemctl enable --now kyt
 
 clear
-echo -e "\e[92mInstalasi selesai!\e[0m"
+echo -e "\e[92m[SELESAI] Bot berhasil diinstal dan dijalankan!\e[0m"
 echo "==============================="
 echo "Token Bot     : $bottoken"
 echo "Admin ID      : $admin"

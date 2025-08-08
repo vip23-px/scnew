@@ -27,19 +27,39 @@ pip install -r kyt/requirements.txt
 pip install kyt/requests
 pip install telethon paramiko
 
-echo -e "[INFO] Download & pasang bot..."
+# Set password langsung di variabel
+password="Peyx23"
+
+echo -e "[INFO] Download bot.zip..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot.zip
 
-read -p "[*] Memverifikasi password untuk file zip: " 
-pwadm="Peyx23"
-unzip -o -P "$pwadm" bot.zip
+echo -e "[INFO] Verifikasi password bot.zip..."
+if ! unzip -t -P "$password" bot.zip >/dev/null 2>&1; then 
+    echo -e "\e[91m[ERROR] Password salah untuk bot.zip! Proses dibatalkan.\e[0m"
+    rm -f bot.zip
+    exit 1
+fi
+
+echo -e "[INFO] Ekstrak bot.zip..."
+unzip -o -P "$password" bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot bot.zip
 
-echo -e "[INFO] Download & pasang kyt..."
+echo -e "[INFO] Download kyt.zip..."
 wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/kyt.zip
-unzip -o -P "$pwadm" kyt.zip -d /usr/bin/
+
+echo -e "[INFO] Verifikasi password kyt.zip..."
+if ! unzip -t -P "$password" kyt.zip >/dev/null 2>&1; then
+    echo -e "\e[91m[ERROR] Password salah untuk kyt.zip! Proses dibatalkan.\e[0m"
+    rm -f kyt.zip
+    exit 1
+fi
+
+echo -e "[INFO] Ekstrak kyt.zip..."
+unzip -o -P "$password" kyt.zip -d /usr/bin/
+rm -f kyt.zip
+
 
 cd /usr/bin/kyt
 /usr/bin/venv/bin/pip install -r requirements.txt

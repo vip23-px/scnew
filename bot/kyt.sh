@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ZIP_PASS="@Peyx23"  # Ganti dengan password asli file zip
+ZIP_PASS="Peyx23"  # Ganti dengan password asli file zip
 
 NS=$(cat /etc/xray/dns 2>/dev/null)
 PUB=$(cat /etc/slowdns/server.pub 2>/dev/null)

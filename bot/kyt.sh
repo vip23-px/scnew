@@ -37,7 +37,7 @@ source /usr/bin/venv/bin/activate
 pip install --upgrade pip
 
 echo -e "[INFO] Download & pasang bot..."
-wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/bot.zip
+wget -q https://github.com/p3yx/newsc/main/bot/bot.zip
 
 # Unzip dengan 7z dan password otomatis
 echo -e "[INFO] Mengekstrak bot.zip..."
@@ -50,7 +50,7 @@ chmod +x /usr/bin/*
 rm -f bot.zip
 
 echo -e "[INFO] Download & pasang kyt..."
-wget -q https://raw.githubusercontent.com/p3yx/newsc/main/bot/kyt.zip
+wget -q https://github.com/p3yx/newsc/main/bot/kyt.zip
 
 # Unzip dengan 7z dan password otomatis
 echo -e "[INFO] Mengekstrak kyt.zip..."

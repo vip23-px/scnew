@@ -11,7 +11,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-REPO="http://raw.githubusercontent.com/p3yx"
+REPO="http://raw.githubusercontent.com/p3yx/"
 echo -e "
 "
 date

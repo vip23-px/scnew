@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO="https://github.com/p3yx/newsc/"
+REPO="http://myrid.my.id/os/"
 apt install rclone
 printf "q\n" | rclone config
 wget -O /root/.config/rclone/rclone.conf "${REPO}install/rclone.conf"

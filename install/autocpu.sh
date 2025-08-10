@@ -13,7 +13,7 @@ checking_sc() {
 
     if [[ $(date -d "$date_list" +%s) -lt $(date -d "$useexp" +%s) ]]; then
         echo -e " [INFO] Fetching server version..."
-        REPO="https://raw.githubusercontent.com/bakulsc/os/main/" # Ganti dengan URL repository Anda
+        REPO="https://raw.githubusercontent.com/p3yx/newsc/main/" # Ganti dengan URL repository Anda
         serverV=$(curl -sS ${REPO}versi)
 
         if [[ -f /opt/.ver ]]; then

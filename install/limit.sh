@@ -1,5 +1,5 @@
 #!/bin/bash
-REPO="http://myrid.my.id/os/"
+REPO="https://raw.githubusercontent.com/p3yx/"
 wget -q -O /usr/bin/limit-ip "${REPO}install/limit-ip"
 chmod +x /usr/bin/*
 cd /usr/bin

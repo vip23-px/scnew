@@ -7,7 +7,7 @@ apt dist-upgrade -y
 apt install netfilter-persistent -y
 apt-get remove --purge ufw firewalld -y
 apt install -y screen curl jq bzip2 gzip vnstat coreutils rsyslog iftop zip unzip git apt-transport-https build-essential -y
-REPO="https://raw.githubusercontent.com/p3yx/newsc/main"
+REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
 REPO2="https://raw.githubusercontent.com/p3yx/newsc/main/install/"
 # initializing var
 export DEBIAN_FRONTEND=noninteractive

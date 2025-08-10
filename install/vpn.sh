@@ -1,10 +1,10 @@
 #!/bin/bash
-# Mod By NEWBIE VPN 
+# Mod By PEYX VPN 
 
 # By NEWBIE VPN 
 # ==================================================
 # Link Hosting Kalian
-REPO="http://myrid.my.id/os/"
+REPO="http://raw.githubusercontent.com/p3yx/"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive

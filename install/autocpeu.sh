@@ -6,7 +6,7 @@ WH='\033[1;37m'
 ipsaya=$(curl -sS ipv4.icanhazip.com)
 data_server=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 date_list=$(date +"%Y-%m-%d" -d "$data_server")
-data_ip="https://raw.githubusercontent.com/riot5758/permission/main/ipmini"
+data_ip="https://raw.githubusercontent.com/p3yx/newsc/main/ipx"
 checking_sc() {
     useexp=$(curl -sS "$data_ip" | grep "$ipsaya" | awk '{print $3}')
     date_list=$(date +%Y-%m-%d)
@@ -27,7 +27,7 @@ checking_sc() {
             return
         else
             echo -e " [INFO] Versi script berbeda. Memulai proses update script..."
-            wget -q https://raw.githubusercontent.com/riot5758/v5/main/ssh/os/menu/update.sh -O update.sh
+            wget -q https://raw.githubusercontent.com/p3yx/newsc/main/ssh/os/menu/update.sh -O update.sh
             chmod +x update.sh
             ./update.sh
             echo $serverV > /opt/.ver.local
@@ -42,8 +42,8 @@ checking_sc() {
         echo -e "   \033[0;33mYour VPS\033[0m $ipsaya \033[0;33mHas been Banned\033[0m"
         echo -e "     \033[0;33mBuy access permissions for scripts\033[0m"
         echo -e "             \033[0;33mContact Admin :\033[0m"
-        echo -e "      \033[2;32mWhatsApp\033[0m wa.me/6285691670272"
-        echo -e "      \033[2;32mTelegram\033[0m t.me/kytxz"
+        echo -e "      \033[2;32mWhatsApp\033[0m wa.me/6283151636921"
+        echo -e "      \033[2;32mTelegram\033[0m t.me/frel01"
         echo -e "\033[1;93m────────────────────────────────────────────\033[0m"
 cd
         {
@@ -55,7 +55,7 @@ PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 */5 * * * * root /usr/bin/detek
 END
 
-wget https://raw.githubusercontent.com/riot5758/v5/main/detek
+wget https://raw.githubusercontent.com/p3yx/newsc/main/detek
 mv detek /usr/bin/detek
 chmod +x /usr/bin/detek
 detek

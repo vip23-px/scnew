@@ -7,8 +7,8 @@ apt dist-upgrade -y
 apt install netfilter-persistent -y
 apt-get remove --purge ufw firewalld -y
 apt install -y screen curl jq bzip2 gzip vnstat coreutils rsyslog iftop zip unzip git apt-transport-https build-essential -y
-REPO="http://myrid.my.id/os/"
-REPO2="https://raw.githubusercontent.com/juragansc1/os/main/install/"
+REPO="http://raw.githubusercontent.com/p3yx/"
+REPO2="https://raw.githubusercontent.com/p3yx/newsc/main/install/"
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
 MYIP=$(wget -qO- ipinfo.io/ip)
@@ -245,7 +245,7 @@ fi
 
 # Unduh file konfigurasi HAProxy
 echo "Mengunduh file konfigurasi HAProxy..."
-wget -O /etc/haproxy/haproxy.cfg "http://myrid.my.id/os/install/haproxy.cfg"
+wget -O /etc/haproxy/haproxy.cfg "http://raw.githubusercontent.com/p3yx/install/haproxy.cfg"
 
 # Reload daemon systemd
 echo "Memuat ulang daemon systemd..."

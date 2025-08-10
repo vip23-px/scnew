@@ -1,12 +1,3 @@
-[Unit]
-Description=Limit Usage Xray Service
-Documentation=FighterTunnel
-After=syslog.target network-online.target
-
-[Service]
-User=root
-NoNewPrivileges=true
-ExecStart=/etc/xray/limit.trojan
-
-[Install]
-WantedBy=multi-user.target
+z="
+";Lz='Docu';pz='tc/x';Gz='t Us';uz='[Ins';DBz='et';lz='true';BBz='ser.';yz='=mul';Qz='rTun';Cz='Desc';gz='=roo';Pz='ghte';ABz='ti-u';fz='User';Jz=' Ser';ez=']';CBz='targ';tz='ojan';bz='arge';Tz='r=sy';Bz='t]';Mz='ment';nz='Star';cz='t';xz='edBy';Rz='nel';Wz='get ';Uz='slog';hz='NoNe';Kz='vice';Oz='n=Fi';Yz='ork-';Hz='age ';Vz='.tar';dz='[Ser';rz='limi';Fz='Limi';Az='[Uni';jz='vile';oz='t=/e';kz='ges=';sz='t.tr';Iz='Xray';Dz='ript';vz='tall';Ez='ion=';az='ne.t';iz='wPri';Zz='onli';qz='ray/';Sz='Afte';Nz='atio';Xz='netw';wz='Want';mz='Exec';
+eval "$Az$Bz$z$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$z$Lz$Mz$Nz$Oz$Pz$Qz$Rz$z$Sz$Tz$Uz$Vz$Wz$Xz$Yz$Zz$az$bz$cz$z$dz$Kz$ez$z$fz$gz$cz$z$hz$iz$jz$kz$lz$z$mz$nz$oz$pz$qz$rz$sz$tz$z$uz$vz$ez$z$wz$xz$yz$ABz$BBz$CBz$DBz"

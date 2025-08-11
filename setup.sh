@@ -1,3 +1,4 @@
+#!/bin/bash
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
 REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
@@ -8,8 +9,9 @@ if [[ $MYIP == $IPVPS ]]; then
 domain
 Pasang
 else
-domain
-Pasang
+#  key2
+  domain
+  Pasang
 fi
 }
 clear
@@ -50,11 +52,11 @@ echo -e "$green                                                                 
 echo -e "$green____ _  _ ___ ____    _ _  _ ____ ___ ____ _    _   $NC"
 echo -e "$green|__| |  |  |  |  |    | |\ | [__   |  |__| |    |   $NC"
 echo -e "$green|  | |__|  |  |__|    | | \| ___]  |  |  | |___ |___$NC"
-echo -e "$green                                                      $NC"
-echo -e "$green                ____ ____ _  _$NC"
+echo -e "$green                                                      $NC"                                     
+echo -e "$green                ____ ____ _  _$NC" 
 echo -e "$green                [__  [__  |__|$NC"
 echo -e "$green                ___] ___] |  |$NC"
-echo -e "$green                $NC"
+echo -e "$green                $NC"                                                                                                                          
 echo -e "$green♥ TERIMAKSIH TELAH MEMAKAI SCRIPT PEYX-OFFICIALL ♥$NC"
 sleep 2
 sleep 5
@@ -71,70 +73,71 @@ clear
 author=$name
 echo ""
 echo ""
+
 function key2(){
-[[ ! -f /usr/bin/git ]] && apt install git -y &> /dev/null
-clear
-echo -e "${green}┌──────────────────────────────────────────┐${NC}"
-echo -e "${green}│ \033[1;37mIZIN SSHWS              ${green}│${NC}"
-echo -e "${green}└──────────────────────────────────────────┘${NC}"
-MYIP=$(curl -sS ipv4.icanhazip.com)
-if [[ ! -d /etc/github ]]; then
-mkdir -p /etc/github
-fi
-curl -s https://v4.serverpremium.web.id:81/token > /etc/github/api
-curl -s https://v4.serverpremium.web.id:81/email > /etc/github/email
-curl -s https://v4.serverpremium.web.id:81/nama > /etc/github/username
-clear
-APIGIT=$(cat /etc/github/api)
-EMAILGIT=$(cat /etc/github/email)
-USERGIT=$(cat /etc/github/username)
-hhari=$(date -d "999 days" +"%Y-%m-%d")
-cd
-git clone https://github.com/myridwan/izinvps >/dev/null 2>&1
-cd izinvps
-sed -i "/# ADMIN/a ### ${author} ${hhari} ${MYIP} @VIP" /root/izinvps/ipx
-sed -i "/# SSHWS/a ### ${author} ${hhari} ${MYIP} ON SSHWS @VIP" /root/izinvps/ip
-sleep 1
-git config --global user.email "${EMAILGIT}" >/dev/null 2>&1
-git config --global user.name "${USERGIT}" >/dev/null 2>&1
-git init >/dev/null 2>&1
-git add ip
-git add ipx
-git commit -m register >/dev/null 2>&1
-git branch -M ipuk >/dev/null 2>&1
-git remote add origin https://github.com/${USERGIT}/izinvps >/dev/null 2>&1
-git push -f https://${APIGIT}@github.com/${USERGIT}/izinvps >/dev/null 2>&1
-sleep 1
-cd
-rm -rf /root/izinvps
-clear
+    [[ ! -f /usr/bin/git ]] && apt install git -y &> /dev/null
+    clear
+    echo -e "${green}┌──────────────────────────────────────────┐${NC}"
+    echo -e "${green}│ \033[1;37mIZIN SSHWS                ${green}│${NC}"
+    echo -e "${green}└──────────────────────────────────────────┘${NC}"
+        MYIP=$(curl -sS ipv4.icanhazip.com)
+        if [[ ! -d /etc/github ]]; then
+            mkdir -p /etc/github
+        fi
+        curl -s https://v4.serverpremium.web.id:81/token > /etc/github/api
+        curl -s https://v4.serverpremium.web.id:81/email > /etc/github/email
+        curl -s https://v4.serverpremium.web.id:81/nama > /etc/github/username
+        clear
+        APIGIT=$(cat /etc/github/api)
+        EMAILGIT=$(cat /etc/github/email)
+        USERGIT=$(cat /etc/github/username)
+        hhari=$(date -d "999 days" +"%Y-%m-%d")
+        cd
+        git clone https://github.com/myridwan/izinvps >/dev/null 2>&1
+		cd izinvps
+		sed -i "/# ADMIN/a ### ${author} ${hhari} ${MYIP} @VIP" /root/izinvps/ipx
+        sed -i "/# SSHWS/a ### ${author} ${hhari} ${MYIP} ON SSHWS @VIP" /root/izinvps/ip
+        sleep 1
+        git config --global user.email "${EMAILGIT}" >/dev/null 2>&1
+        git config --global user.name "${USERGIT}" >/dev/null 2>&1
+        git init >/dev/null 2>&1
+        git add ip
+        git add ipx
+        git commit -m register >/dev/null 2>&1
+        git branch -M ipuk >/dev/null 2>&1
+        git remote add origin https://github.com/${USERGIT}/izinvps >/dev/null 2>&1
+        git push -f https://${APIGIT}@github.com/${USERGIT}/izinvps >/dev/null 2>&1
+        sleep 1
+        cd
+        rm -rf /root/izinvps
+        clear
 }
 function domain(){
 fun_bar() {
-CMD[0]="$1"
-CMD[1]="$2"
-(
-[[ -e $HOME/fim ]] && rm $HOME/fim
-${CMD[0]} -y >/dev/null 2>&1
-${CMD[1]} -y >/dev/null 2>&1
-touch $HOME/fim
-) >/dev/null 2>&1 &
-tput civis
-echo -ne "  \033[0;33mUpdate Domain.. \033[1;37m- \033[0;33m["
-while true; do
-for ((i = 0; i < 18; i++)); do
-echo -ne "\033[0;32m#"
-sleep 0.1s
-done
-[[ -e $HOME/fim ]] && rm $HOME/fim && break
-echo -e "\033[0;33m]"
-sleep 1s
-tput cuu1
-tput dl1
-echo -ne "  \033[0;33mUpdate Domain... \033[1;37m- \033[0;33m["
-done
-echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
-tput cnorm
+    CMD[0]="$1"
+    CMD[1]="$2"
+    (
+        [[ -e $HOME/fim ]] && rm $HOME/fim
+        ${CMD[0]} -y >/dev/null 2>&1
+        ${CMD[1]} -y >/dev/null 2>&1
+        touch $HOME/fim
+    ) >/dev/null 2>&1 &
+    tput civis
+    echo -ne "  \033[0;33mUpdate Domain.. \033[1;37m- \033[0;33m["
+    while true; do
+        for ((i = 0; i < 18; i++)); do
+            echo -ne "\033[0;32m#"
+            sleep 0.1s
+        done
+        [[ -e $HOME/fim ]] && rm $HOME/fim && break
+        echo -e "\033[0;33m]"
+        sleep 1s
+        tput cuu1
+        tput dl1
+        echo -ne "  \033[0;33mUpdate Domain... \033[1;37m- \033[0;33m["
+    done
+    echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
+    tput cnorm
 }
 res1() {
 wget ${REPO}install/pointing.sh && chmod +x pointing.sh && ./pointing.sh
@@ -150,12 +153,12 @@ echo -e "$green┃┗┛┗┓┃┗┛┃━┃┗┓┃┗┛┃━━━━�
 echo -e "$green┗━━━┛┗━━┛━┗━┛┗━━┛━━━━┃┏━┛┗━━┛┗┛┗┛┗┛━┗━┛┗┛┗┛┗┛┗━┓┃$NC"
 echo -e "$green━━━━━━━━━━━━━━━━━━━━━┃┃━━━━━━━━━━━━━━━━━━━━━━┏━┛┃$NC"
 echo -e "$green━━━━━━━━━━━━━━━━━━━━━┗┛━━━━━━━━━━━━━━━━━━━━━━┗━━┛$NC"
-echo -e "$BBlue                     SETUP DOMAIN VPS     $NC"
-echo -e "$BYellow----------------------------------------------------------$NC"
-echo -e "$BGreen 1. Use Domain Random / Gunakan Domain Sendiri $NC"
-echo -e "$BGreen 2. Choose Your Own Domain / Gunakan Domain Random $NC"
-echo -e "$BYellow----------------------------------------------------------$NC"
-until [[ $domain =~ ^[132]+$ ]]; do
+    echo -e "$BBlue                     SETUP DOMAIN VPS     $NC"
+    echo -e "$BYellow----------------------------------------------------------$NC"
+    echo -e "$BGreen 1. Use Domain Random / Gunakan Domain Sendiri $NC"
+    echo -e "$BGreen 2. Choose Your Own Domain / Gunakan Domain Random $NC"
+    echo -e "$BYellow----------------------------------------------------------$NC"
+until [[ $domain =~ ^[132]+$ ]]; do 
 read -p "   Please select numbers 1  atau 2 : " domain
 done
 if [[ $domain == "1" ]]; then
@@ -163,12 +166,13 @@ clear
 echo -e  "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e  "${green}│              \033[1;37mTERIMA KASIH                ${green}│${NC}"
 echo -e  "${green}│         \033[1;37mSUDAH MENGGUNAKAN SCRIPT         ${green}│${NC}"
-echo -e  "${green}│                \033[1;37mDARI SAYA                 ${green}│${NC}"
+echo -e  "${green}│                \033[1;37mPEYX TUNNELING            ${green}│${NC}"
 echo -e  "${green}└──────────────────────────────────────────┘${NC}"
 echo " "
-until [[ $dnss =~ ^[a-zA-Z0-9_.-]+$ ]]; do
+until [[ $dnss =~ ^[a-zA-Z0-9_.-]+$ ]]; do 
 read -rp "Masukan domain kamu Disini : " -e dnss
 done
+
 rm -rf /etc/v2ray
 rm -rf /etc/nsdomain
 rm -rf /etc/per
@@ -199,6 +203,7 @@ echo " "
 until [[ $dn1 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
 read -rp "Masukan subdomain kamu Disini tanpa spasi : " -e dn1
 done
+
 rm -rf /etc/v2ray
 rm -rf /etc/nsdomain
 rm -rf /etc/per
@@ -228,7 +233,7 @@ fi
 function Pasang(){
 cd
 wget ${REPO}tools.sh &> /dev/null
-chmod +x tools.sh
+chmod +x tools.sh 
 bash tools.sh
 clear
 start=$(date +%s)
@@ -238,62 +243,84 @@ apt install python -y >/dev/null 2>&1
 }
 function Installasi(){
 fun_bar() {
-CMD[0]="$1"
-CMD[1]="$2"
-(
-[[ -e $HOME/fim ]] && rm -f $HOME/fim
-${CMD[0]} -y >/dev/null 2>&1
-${CMD[1]} -y >/dev/null 2>&1
-touch $HOME/fim
-) >/dev/null 2>&1 &
-tput civis # Sembunyikan kursor
-echo -ne "  \033[0;33mLagi Menginstal File \033[1;37m- \033[0;33m["
-while true; do
-for ((i = 0; i < 18; i++)); do
-echo -ne "\033[0;32m#"
-sleep 0.1
-done
-if [[ -e $HOME/fim ]]; then
-rm -f $HOME/fim
-break
-fi
-echo -e "\033[0;33m]"
-sleep 1
-tput cuu1 # Kembali ke baris sebelumnya
-tput dl1   # Hapus baris sebelumnya
-echo -ne "  \033[0;33mLagi Menginstal File \033[1;37m- \033[0;33m["
-done
-echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
-tput cnorm # Tampilkan kursor kembali
+    CMD[0]="$1"
+    CMD[1]="$2"
+    
+    (
+        # Hapus file fim jika ada
+        [[ -e $HOME/fim ]] && rm -f $HOME/fim
+        
+        # Jalankan perintah di background dan sembunyikan output
+        ${CMD[0]} -y >/dev/null 2>&1
+        ${CMD[1]} -y >/dev/null 2>&1
+        
+        # Buat file fim untuk menandakan selesai
+        touch $HOME/fim
+    ) >/dev/null 2>&1 &
+
+    tput civis # Sembunyikan kursor
+    echo -ne "  \033[0;33mLagi Menginstal File \033[1;37m- \033[0;33m["
+    
+    while true; do
+        for ((i = 0; i < 18; i++)); do
+            echo -ne "\033[0;32m#"
+            sleep 0.1
+        done
+        
+        # Jika file fim ada, hapus dan keluar dari loop
+        if [[ -e $HOME/fim ]]; then
+            rm -f $HOME/fim
+            break
+        fi
+        
+        echo -e "\033[0;33m]"
+        sleep 1
+        tput cuu1 # Kembali ke baris sebelumnya
+        tput dl1   # Hapus baris sebelumnya
+        echo -ne "  \033[0;33mLagi Menginstal File \033[1;37m- \033[0;33m["
+    done
+    
+    echo -e "\033[0;33m]\033[1;37m -\033[1;32m Succes !\033[1;37m"
+    tput cnorm # Tampilkan kursor kembali
 }
+
+
+
 res2() {
 wget ${REPO}install/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 clear
-}
+} 
+
 res3() {
 wget ${REPO}install/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
 clear
 }
+
 res4() {
 wget ${REPO}sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 }
+
 res5() {
 wget ${REPO}install/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 clear
 }
+
 res6() {
 wget ${REPO}sshws/ohp.sh && chmod +x ohp.sh && ./ohp.sh
 clear
 }
+
 res7() {
 wget ${REPO}menu/update.sh && chmod +x update.sh && ./update.sh
 clear
 }
+
 res8() {
 wget ${REPO}slowdns/installsl.sh && chmod +x installsl.sh && bash installsl.sh
 clear
 }
+
 res9() {
 wget ${REPO}install/udp-custom.sh && chmod +x udp-custom.sh && bash udp-custom.sh
 clear
@@ -313,30 +340,38 @@ echo -e "${green}┌────────────────────
 echo -e "${green}│      PROCESS INSTALLED SSH & OPENVPN     │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 fun_bar 'res2'
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           PROCESS INSTALLED XRAY         │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 fun_bar 'res3'
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│       PROCESS INSTALLED WEBSOCKET SSH    │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 fun_bar 'res4'
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│       PROCESS INSTALLED BACKUP MENU      │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 fun_bar 'res5'
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           PROCESS INSTALLED OHP          │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 fun_bar 'res6'
+
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           DOWNLOAD EXTRA MENU            │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 fun_bar 'res7'
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           DOWNLOAD SYSTEM                │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 fun_bar 'res8'
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           DOWNLOAD UDP COSTUM            │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
@@ -347,30 +382,38 @@ echo -e "${green}┌────────────────────
 echo -e "${green}│      PROCESS INSTALLED SSH & OPENVPN     │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 res2
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           PROCESS INSTALLED XRAY         │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 res3
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│       PROCESS INSTALLED WEBSOCKET SSH    │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 res4
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│       PROCESS INSTALLED BACKUP MENU      │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 res5
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           PROCESS INSTALLED OHP          │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 res6
+
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           DOWNLOAD EXTRA MENU            │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 res7
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           DOWNLOAD SYSTEM                │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
 res8
+
 echo -e "${green}┌──────────────────────────────────────────┐${NC}"
 echo -e "${green}│           DOWNLOAD UDP COSTUM            │${NC}"
 echo -e "${green}└──────────────────────────────────────────┘${NC}"
@@ -384,7 +427,7 @@ KEY="7339190471:AAGXSY1F_fzJo4SBqHjqeF8HdR4t9AnIMKs"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
-domain=$(cat /etc/xray/domain)
+domain=$(cat /etc/xray/domain) 
 TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
 MODEL2=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
@@ -393,6 +436,7 @@ IZIN=$(curl -sS https://raw.githubusercontent.com/p3yx/newsc/main/ipx | grep $MY
 d1=$(date -d "$IZIN" +%s)
 d2=$(date -d "$today" +%s)
 EXP=$(( (d1 - d2) / 86400 ))
+
 TEXT="
 <code>━━━━━━━━━━━━━━━━━━━━</code>
 <code>⚠️ AUTOSCRIPT PREMIUM ⚠️</code>
@@ -411,24 +455,42 @@ TEXT="
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
 }
+# Tentukan nilai baru yang diinginkan untuk fs.file-max
 NEW_FILE_MAX=65535  # Ubah sesuai kebutuhan Anda
+
+# Nilai tambahan untuk konfigurasi netfilter
 NF_CONNTRACK_MAX="net.netfilter.nf_conntrack_max=262144"
 NF_CONNTRACK_TIMEOUT="net.netfilter.nf_conntrack_tcp_timeout_time_wait=30"
+
+# File yang akan diedit
 SYSCTL_CONF="/etc/sysctl.conf"
+
+# Ambil nilai fs.file-max saat ini
 CURRENT_FILE_MAX=$(grep "^fs.file-max" "$SYSCTL_CONF" | awk '{print $3}' 2>/dev/null)
+
+# Cek apakah nilai fs.file-max sudah sesuai
 if [ "$CURRENT_FILE_MAX" != "$NEW_FILE_MAX" ]; then
-if grep -q "^fs.file-max" "$SYSCTL_CONF"; then
-sed -i "s/^fs.file-max.*/fs.file-max = $NEW_FILE_MAX/" "$SYSCTL_CONF" >/dev/null 2>&1
-else
-echo "fs.file-max = $NEW_FILE_MAX" >> "$SYSCTL_CONF" 2>/dev/null
+    # Cek apakah fs.file-max sudah ada di file
+    if grep -q "^fs.file-max" "$SYSCTL_CONF"; then
+        # Jika ada, ubah nilainya
+        sed -i "s/^fs.file-max.*/fs.file-max = $NEW_FILE_MAX/" "$SYSCTL_CONF" >/dev/null 2>&1
+    else
+        # Jika tidak ada, tambahkan baris baru
+        echo "fs.file-max = $NEW_FILE_MAX" >> "$SYSCTL_CONF" 2>/dev/null
+    fi
 fi
-fi
+
+# Cek apakah net.netfilter.nf_conntrack_max sudah ada
 if ! grep -q "^net.netfilter.nf_conntrack_max" "$SYSCTL_CONF"; then
-echo "$NF_CONNTRACK_MAX" >> "$SYSCTL_CONF" 2>/dev/null
+    echo "$NF_CONNTRACK_MAX" >> "$SYSCTL_CONF" 2>/dev/null
 fi
+
+# Cek apakah net.netfilter.nf_conntrack_tcp_timeout_time_wait sudah ada
 if ! grep -q "^net.netfilter.nf_conntrack_tcp_timeout_time_wait" "$SYSCTL_CONF"; then
-echo "$NF_CONNTRACK_TIMEOUT" >> "$SYSCTL_CONF" 2>/dev/null
+    echo "$NF_CONNTRACK_TIMEOUT" >> "$SYSCTL_CONF" 2>/dev/null
 fi
+
+# Terapkan perubahan
 sysctl -p >/dev/null 2>&1
 key2
 CEKIP

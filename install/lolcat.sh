@@ -1,3 +1,23 @@
-z="
-";NBz='e';cBz='cd';MBz='shar';vz='e ht';oz='-get';tz='git ';wz='tps:';Cz='apt-';fz='t-ma';Zz='ster';jz='at';JBz='cat';Gz='ruby';DBz='p/lo';IBz=' lol';Yz='p ma';Wz='ip';Sz='arch';qz='tall';Pz='loop';Lz='/git';Bz='r';YBz=' && ';Az='clea';RBz='-fon';Dz='get ';Xz='unzi';WBz='nts/';GBz='n &&';UBz='igle';CBz='yloo';eBz='.sh';kz='figl';PBz='o/fi';mz='sudo';az='.zip';BBz='/bus';Mz='hub.';iz='lolc';dz='cd l';VBz='t-fo';bBz='nts';cz='f ma';Uz='mast';Vz='er.z';HBz=' gem';ABz='.com';sz='let';Rz='cat/';lz='et';Fz='all ';aBz='rf f';yz='thub';gz='/bin';Hz=' -y';xz='//gi';Ez='inst';Qz='/lol';EBz='lcat';FBz='t/bi';OBz='/xer';nz=' apt';TBz='mv f';Iz='wget';Jz=' htt';dBz='f lo';ZBz='rm –';hz='gem ';pz=' ins';XBz='* fi';KBz='cd /';uz='clon';QBz='glet';Kz='ps:/';rz=' fig';Oz='busy';bz='rm -';Nz='com/';SBz='ts';Tz='ive/';LBz='usr/';ez='olca';
-eval "$Az$Bz$z$Cz$Dz$Ez$Fz$Gz$Hz$z$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$z$Xz$Yz$Zz$az$z$bz$cz$Zz$az$z$dz$ez$fz$Zz$gz$z$hz$Ez$Fz$iz$jz$z$Cz$Dz$Ez$Fz$kz$lz$z$mz$nz$oz$pz$qz$rz$sz$z$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$z$dz$ez$FBz$GBz$HBz$pz$qz$IBz$JBz$z$KBz$LBz$MBz$NBz$z$tz$uz$vz$wz$xz$yz$ABz$OBz$PBz$QBz$RBz$SBz$z$TBz$UBz$VBz$WBz$XBz$QBz$YBz$ZBz$aBz$UBz$VBz$bBz$z$cBz$z$bz$dBz$EBz$eBz"
+#!/bin/bash
+
+clear
+# install Ruby & Yum
+apt-get install ruby -y
+# install lolcat
+wget https://github.com/busyloop/lolcat/archive/master.zip
+unzip master.zip
+rm -f master.zip
+cd lolcat-master/bin
+gem install lolcat
+# install figlet
+apt-get install figlet
+# Install figlet ascii
+sudo apt-get install figlet
+git clone https://github.com/busyloop/lolcat
+cd lolcat/bin && gem install lolcat
+cd /usr/share
+git clone https://github.com/xero/figlet-fonts
+mv figlet-fonts/* figlet && rm –rf figlet-fonts
+
+cd
+rm -f lolcat.sh

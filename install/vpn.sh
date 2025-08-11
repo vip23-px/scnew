@@ -1,3 +1,143 @@
-z="
-";cEz='dp.o';Vz='onin';qCz='tc/d';tz='$ANU';xFz='netf';UBz=' ipt';SCz='64-l';AGz='r-pe';NBz='-rsa';oBz=' ${R';FGz='l st';pFz='-res';Hz='cont';EEz='lv-r';Az='REPO';XFz='U -j';eBz='envp';uBz='p vp';IEz='e-me';WDz='rd';yBz='f vp';DBz=''\''{pr';wFz='ules';fEz='0';HFz='/udp';mBz='vpn/';dEz='o ud';qz='ANU=';xEz='.ovp';lCz='TART';YCz='gins';sBz='zip';GCz='er/e';wz='e sh';sDz='clie';KEz=' exe';GGz='art ';pz='/g";';LGz='oot/';nCz='l"/A';qEz='ca.c';Wz='tera';nFz='p.ru';LFz='ml/s';Dz='//ra';Qz='rt D';oFz='les';YEz='-i $';yEz='n';HCz='asy-';vBz='n.zi';NDz='echo';fDz='ward';dCz='.so ';PEz='key';Ez='w.gi';uEz='ca>'\''';bDz='/net';jFz='d +x';mEz='tcp.';mz='/xxx';OFz='-I P';xz='ow t';fFz='s.up';Oz='"';WCz='nvpn';REz='r-pa';tDz='nt';yFz='ilte';tBz='unzi';VBz='able';LBz='vpn ';NCz='n/';MEz='nd';VFz='4 -o';BGz=' sav';uz=' -4 ';hDz='tc/s';Uz='ND=n';rDz='ND';pDz='cp.o';dDz='4.ip';FDz='-udp';oDz='pn/t';uCz='pn';MGz='sh';aEz='vpn;';kCz='UTOS';iBz='y-rs';RCz='x86_';xBz='rm -';lBz='etc/';SFz='s 10';PDz=' /pr';pEz='ver/';XEz='END';gCz='.so';DCz='t:ro';Kz='p3yx';IDz='t.d/';FEz='etry';OBz=' unz';XBz='rsis';UEz='-lzo';ABz='faul';sCz='lt/o';ez='=$(w';JFz='ssl.';TBz='bles';QDz='oc/s';aFz='ADE';KCz=' /us';jCz='s/#A';YDz='et.i';XDz='s/#n';jBz='a/';RFz='NG -';tCz='penv';CBz='awk ';RDz='ys/n';QFz='OUTI';Nz='ain/';nEz='ovpn';bz='e -m';kz='p);';LDz='stat';oz='xx/$';az='unam';TEz='comp';dz='MYIP';eFz='/ipt';sEz='vpn';qDz='<<-E';CFz='ps/p';oCz='l"/g';AFz=' /ho';mFz='es.u';dFz='e > ';LEz='nobi';sz=' -o ';OEz='ist-';WBz='s-pe';AEz='te x';CGz=' rel';ZBz=' -y';OCz='cp /';gBz='rver';cDz='.ipv';JEz='thod';VEz='verb';JCz='cd';gDz='=1/g';kBz='cd /';ACz='chow';EBz='int ';uFz='les.';wEz='/tcp';CEz='4';ADz='ow o';cz='`;';ZDz='pv4.';lz='2="s';ZFz='QUER';UFz='.0/2';vDz='tun';gz='-qO-';iz='nfo.';TFz='.6.0';bEz='pn/u';HEz='init';wBz='p';EGz=' ope';HDz='/ini';TCz='inux';JDz='rest';PBz='ip -';qBz='all/';ICz='rsa/';Jz='com/';MBz='easy';vEz=' >> ';MCz='b/op';rBz='vpn.';IFz='ml/u';DDz='r@se';cFz='-sav';iFz='chmo';KBz='open';lFz='tabl';tFz='ptab';mDz='> /e';UDz='ip_f';wCz='emct';TDz='pv4/';lEz='>> /';VDz='orwa';aBz='mkdi';kEz='a>'\'' ';Tz='ONTE';lDz='cat ';XCz='/plu';Gz='user';Xz='ctiv';yDz='remo';RBz='ssl ';hFz='es';jz='io/i';iEz=' 990';YFz=' MAS';qFz='tore';nDz='tc/o';FFz='ml/t';fBz='n/se';PCz='usr/';hz=' ipi';rz='$(ip';MFz=' -t ';jEz=' '\''<c';BFz='me/v';HGz='hist';hBz='/eas';gFz='.rul';tEz=' '\''</';JGz='-c';EDz='-tcp';SDz='et/i';eDz='_for';bCz='auth';ZEz='2 /e';ODz=' 1 >';Zz='OS=`';GBz=');';eCz='/usr';bFz='.7.0';fz='get ';DFz='ubli';cCz='-pam';MDz='us';kDz='nf';CCz=' roo';JBz='all ';nBz='wget';GFz='udp.';kFz='c/ip';LCz='r/li';VCz='/ope';BDz='pn-s';YBz='tent';xCz='l en';DEz='reso';vCz='syst';ZCz='-plu';iDz='ysct';Pz='expo';iCz='-i '\''';FBz='$5}'\''';Fz='thub';eEz=' 220';Mz='sc/m';WEz=' 3';Rz='EBIA';NEz='pers';GDz='/etc';Sz='N_FR';QEz='-use';hEz='sl.o';BBz='t | ';HBz='apt ';cBz=' /et';rEz='rt >';KDz='art';DGz='oad';rFz='< /e';FCz='serv';nz='xxxx';mCz='="al';gEz='pn/s';wDz='prot';dBz='c/op';hCz='sed ';Yz='e';QCz='lib/';jDz='l.co';IGz='ory ';bBz='r -p';BCz='n -R';pCz=''\'' /e';KFz='/ssl';KGz='f /r';sFz='tc/i';yz='o de';vz='rout';ECz='ot /';NFz='nat ';WFz=' $AN';oEz='/ser';UCz='-gnu';EFz='c_ht';QBz='y';xDz='o tc';aDz='rd=1';pBz='EPO}';Bz='="ht';vFz='up.r';PFz='OSTR';Lz='/new';uDz='dev ';GEz=' inf';IBz='inst';aCz='gin-';SEz='ss';rCz='efau';fCz='/lib';yCz=' --n';BEz=' 119';CDz='erve';Iz='ent.';Cz='tps:';SBz='ipta';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$z$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$z$Zz$az$bz$cz$z$dz$ez$fz$gz$hz$iz$jz$kz$z$dz$lz$mz$nz$oz$dz$pz$z$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$z$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$PBz$QBz$z$HBz$IBz$JBz$KBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$z$aBz$bBz$cBz$dBz$eBz$fBz$gBz$hBz$iBz$jBz$z$kBz$lBz$KBz$mBz$z$nBz$oBz$pBz$IBz$qBz$rBz$sBz$z$tBz$uBz$vBz$wBz$z$xBz$yBz$vBz$wBz$z$ACz$BCz$CCz$DCz$ECz$lBz$KBz$mBz$FCz$GCz$HCz$ICz$z$JCz$z$aBz$bBz$KCz$LCz$MCz$eBz$NCz$z$OCz$PCz$QCz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$YCz$VCz$WCz$ZCz$aCz$bCz$cCz$dCz$eCz$fCz$VCz$WCz$VCz$WCz$ZCz$aCz$bCz$cCz$gCz$z$hCz$iCz$jCz$kCz$lCz$mCz$nCz$kCz$lCz$mCz$oCz$pCz$qCz$rCz$sCz$tCz$uCz$z$vCz$wCz$xCz$VBz$yCz$ADz$tCz$BDz$CDz$DDz$gBz$EDz$z$vCz$wCz$xCz$VBz$yCz$ADz$tCz$BDz$CDz$DDz$gBz$FDz$z$GDz$HDz$IDz$KBz$LBz$JDz$KDz$z$GDz$HDz$IDz$KBz$LBz$LDz$MDz$z$NDz$ODz$PDz$QDz$RDz$SDz$TDz$UDz$VDz$WDz$z$hCz$iCz$XDz$YDz$ZDz$UDz$VDz$aDz$bDz$cDz$dDz$eDz$fDz$gDz$pCz$hDz$iDz$jDz$kDz$z$lDz$mDz$nDz$tCz$oDz$pDz$LBz$qDz$rDz$z$sDz$tDz$z$uDz$vDz$z$wDz$xDz$wBz$z$yDz$AEz$nz$nz$BEz$CEz$z$DEz$EEz$FEz$GEz$HEz$Yz$z$vz$IEz$JEz$KEz$z$LEz$MEz$z$NEz$OEz$PEz$z$NEz$OEz$vDz$z$bCz$QEz$REz$SEz$z$TEz$UEz$z$VEz$WEz$z$XEz$z$hCz$YEz$dz$ZEz$nDz$tCz$oDz$pDz$aEz$z$lDz$mDz$nDz$tCz$bEz$cEz$LBz$qDz$rDz$z$sDz$tDz$z$uDz$vDz$z$wDz$dEz$wBz$z$yDz$AEz$nz$nz$eEz$fEz$z$DEz$EEz$FEz$GEz$HEz$Yz$z$vz$IEz$JEz$KEz$z$LEz$MEz$z$NEz$OEz$PEz$z$NEz$OEz$vDz$z$bCz$QEz$REz$SEz$z$TEz$UEz$z$VEz$WEz$z$XEz$z$hCz$YEz$dz$ZEz$nDz$tCz$bEz$cEz$aEz$z$lDz$mDz$nDz$tCz$gEz$hEz$LBz$qDz$rDz$z$sDz$tDz$z$uDz$vDz$z$wDz$xDz$wBz$z$yDz$AEz$nz$nz$iEz$z$DEz$EEz$FEz$GEz$HEz$Yz$z$vz$IEz$JEz$KEz$z$LEz$MEz$z$NEz$OEz$PEz$z$NEz$OEz$vDz$z$bCz$QEz$REz$SEz$z$TEz$UEz$z$VEz$WEz$z$XEz$z$hCz$YEz$dz$ZEz$nDz$tCz$gEz$hEz$aEz$z$JCz$z$GDz$HDz$IDz$KBz$LBz$JDz$KDz$z$NDz$jEz$kEz$lEz$lBz$KBz$mBz$mEz$nEz$z$lDz$GDz$VCz$WCz$oEz$pEz$qEz$rEz$mDz$nDz$tCz$oDz$pDz$sEz$z$NDz$tEz$uEz$vEz$GDz$VCz$WCz$wEz$xEz$yEz$z$OCz$lBz$KBz$mBz$mEz$nEz$AFz$BFz$CFz$DFz$EFz$FFz$pDz$sEz$z$NDz$jEz$kEz$lEz$lBz$KBz$mBz$GFz$nEz$z$lDz$GDz$VCz$WCz$oEz$pEz$qEz$rEz$mDz$nDz$tCz$bEz$cEz$sEz$z$NDz$tEz$uEz$vEz$GDz$VCz$WCz$HFz$xEz$yEz$z$OCz$lBz$KBz$mBz$GFz$nEz$AFz$BFz$CFz$DFz$EFz$IFz$cEz$sEz$z$NDz$jEz$kEz$lEz$lBz$KBz$mBz$JFz$nEz$z$lDz$GDz$VCz$WCz$oEz$pEz$qEz$rEz$mDz$nDz$tCz$gEz$hEz$sEz$z$NDz$tEz$uEz$vEz$GDz$VCz$WCz$KFz$xEz$yEz$z$OCz$lBz$KBz$mBz$JFz$nEz$AFz$BFz$CFz$DFz$EFz$LFz$hEz$sEz$z$SBz$TBz$MFz$NFz$OFz$PFz$QFz$RFz$SFz$TFz$UFz$VFz$WFz$XFz$YFz$ZFz$aFz$z$SBz$TBz$MFz$NFz$OFz$PFz$QFz$RFz$SFz$bFz$UFz$VFz$WFz$XFz$YFz$ZFz$aFz$z$SBz$TBz$cFz$dFz$GDz$eFz$VBz$fFz$gFz$hFz$z$iFz$jFz$cBz$kFz$lFz$mFz$nFz$oFz$z$SBz$TBz$pFz$qFz$MFz$rFz$sFz$tFz$uFz$vFz$wFz$z$xFz$yFz$AGz$XBz$YBz$BGz$Yz$z$xFz$yFz$AGz$XBz$YBz$CGz$DGz$z$vCz$wCz$xCz$VBz$EGz$WCz$z$vCz$wCz$FGz$GGz$KBz$sEz$z$GDz$HDz$IDz$KBz$LBz$JDz$KDz$z$HGz$IGz$JGz$z$xBz$KGz$LGz$rBz$MGz"
+#!/bin/bash
+# Mod By PX VPN 
+
+# By PX VPN 
+# ==================================================
+# Link Hosting Kalian
+REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
+
+# initialisasi var
+export DEBIAN_FRONTEND=noninteractive
+OS=`uname -m`;
+MYIP=$(wget -qO- ipinfo.io/ip);
+MYIP2="s/xxxxxxxxx/$MYIP/g";
+ANU=$(ip -o $ANU -4 route show to default | awk '{print $5}');
+
+# Install OpenVPN dan Easy-RSA
+apt install openvpn easy-rsa unzip -y
+apt install openssl iptables iptables-persistent -y
+mkdir -p /etc/openvpn/server/easy-rsa/
+cd /etc/openvpn/
+wget ${REPO}install/vpn.zip
+unzip vpn.zip
+rm -f vpn.zip
+chown -R root:root /etc/openvpn/server/easy-rsa/
+
+cd
+mkdir -p /usr/lib/openvpn/
+cp /usr/lib/x86_64-linux-gnu/openvpn/plugins/openvpn-plugin-auth-pam.so /usr/lib/openvpn/openvpn-plugin-auth-pam.so
+
+# nano /etc/default/openvpn
+sed -i 's/#AUTOSTART="all"/AUTOSTART="all"/g' /etc/default/openvpn
+
+# restart openvpn dan cek status openvpn
+systemctl enable --now openvpn-server@server-tcp
+systemctl enable --now openvpn-server@server-udp
+/etc/init.d/openvpn restart
+/etc/init.d/openvpn status
+
+# aktifkan ip4 forwarding
+echo 1 > /proc/sys/net/ipv4/ip_forward
+sed -i 's/#net.ipv4.ip_forward=1/net.ipv4.ip_forward=1/g' /etc/sysctl.conf
+
+# Buat config client TCP 1194
+cat > /etc/openvpn/tcp.ovpn <<-END
+client
+dev tun
+proto tcp
+remote xxxxxxxxx 1194
+resolv-retry infinite
+route-method exe
+nobind
+persist-key
+persist-tun
+auth-user-pass
+comp-lzo
+verb 3
+END
+
+sed -i $MYIP2 /etc/openvpn/tcp.ovpn;
+
+# Buat config client UDP 2200
+cat > /etc/openvpn/udp.ovpn <<-END
+client
+dev tun
+proto udp
+remote xxxxxxxxx 2200
+resolv-retry infinite
+route-method exe
+nobind
+persist-key
+persist-tun
+auth-user-pass
+comp-lzo
+verb 3
+END
+
+sed -i $MYIP2 /etc/openvpn/udp.ovpn;
+
+# Buat config client SSL
+cat > /etc/openvpn/ssl.ovpn <<-END
+client
+dev tun
+proto tcp
+remote xxxxxxxxx 990
+resolv-retry infinite
+route-method exe
+nobind
+persist-key
+persist-tun
+auth-user-pass
+comp-lzo
+verb 3
+END
+
+sed -i $MYIP2 /etc/openvpn/ssl.ovpn;
+
+cd
+# pada tulisan xxx ganti dengan alamat ip address VPS anda
+/etc/init.d/openvpn restart
+
+# masukkan certificatenya ke dalam config client TCP 1194
+echo '<ca>' >> /etc/openvpn/tcp.ovpn
+cat /etc/openvpn/server/ca.crt >> /etc/openvpn/tcp.ovpn
+echo '</ca>' >> /etc/openvpn/tcp.ovpn
+
+# Copy config OpenVPN client ke home directory root agar mudah didownload ( TCP 1194 )
+cp /etc/openvpn/tcp.ovpn /home/vps/public_html/tcp.ovpn
+
+# masukkan certificatenya ke dalam config client UDP 2200
+echo '<ca>' >> /etc/openvpn/udp.ovpn
+cat /etc/openvpn/server/ca.crt >> /etc/openvpn/udp.ovpn
+echo '</ca>' >> /etc/openvpn/udp.ovpn
+
+# Copy config OpenVPN client ke home directory root agar mudah didownload ( UDP 2200 )
+cp /etc/openvpn/udp.ovpn /home/vps/public_html/udp.ovpn
+
+# masukkan certificatenya ke dalam config client SSL
+echo '<ca>' >> /etc/openvpn/ssl.ovpn
+cat /etc/openvpn/server/ca.crt >> /etc/openvpn/ssl.ovpn
+echo '</ca>' >> /etc/openvpn/ssl.ovpn
+
+# Copy config OpenVPN client ke home directory root agar mudah didownload ( SSL )
+cp /etc/openvpn/ssl.ovpn /home/vps/public_html/ssl.ovpn
+
+#firewall untuk memperbolehkan akses UDP dan akses jalur TCP
+
+iptables -t nat -I POSTROUTING -s 10.6.0.0/24 -o $ANU -j MASQUERADE
+iptables -t nat -I POSTROUTING -s 10.7.0.0/24 -o $ANU -j MASQUERADE
+iptables-save > /etc/iptables.up.rules
+chmod +x /etc/iptables.up.rules
+
+iptables-restore -t < /etc/iptables.up.rules
+netfilter-persistent save
+netfilter-persistent reload
+
+# Restart service openvpn
+systemctl enable openvpn
+systemctl start openvpn
+/etc/init.d/openvpn restart
+
+# Delete script
+history -c
+rm -f /root/vpn.sh

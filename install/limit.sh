@@ -1,3 +1,29 @@
-z="
-";Jz='com/';pCz='s';Zz='/lim';LCz='/vme';Wz=' "${';ZCz='ks "';MCz='ss" ';Az='REPO';Cz='tps:';NCz='/vle';LBz='" &&';Oz='"';Sz='usr/';Ez='w.gi';xz='imit';Tz='bin/';nBz='ll 2';GCz='/nul';FBz='stal';OBz='x li';gCz='ss';wz='em/l';eBz='&& c';uBz='inst';pBz='shad';CCz='wsoc';rBz='cks.';KCz='it.v';ECz='ce >';hCz='.vle';CBz='e "$';JCz='xray';oz='syst';KBz='vice';sCz='l st';yBz='ocks';rCz='cks';dCz='c/xr';pz='emct';ICz='&1';kBz='ice ';fz='r/bi';mBz='v/nu';Dz='//ra';az='it-i';Rz='-O /';lCz='l en';bBz='nsta';IBz='mess';sBz='"${R';vz='emd/';Qz=' -q ';TCz='" >/';WBz='an.s';UBz='less';kCz='.sha';HCz='l 2>';gz='n/*';aBz='PO}i';SCz='ojan';jCz='jan';tBz='EPO}';uz='etc/';oCz='ow l';vCz='tvle';EBz='O}in';vBz='all/';ACz='mits';Mz='sc/m';qBz='owso';dBz='ce" ';eCz='ay/l';YCz='it.s';Lz='/new';jBz='serv';bCz='ks" ';GBz='l/li';MBz=' chm';hz='cd /';cz='chmo';PBz=' >/d';Gz='user';sz='-rel';Bz='="ht';xBz='dows';BCz='hado';qCz='an';lz='s/\r';kz='-i '\''';VBz='troj';JBz='.ser';qz='l da';ez=' /us';yz='vmes';Xz='}ins';Pz='wget';Uz='limi';Iz='ent.';NBz='od +';oBz='>&1';YBz='ce "';tCz='art ';Yz='tall';rz='emon';hBz='ttro';XCz='1';ABz='s.se';SBz='2>&1';Fz='thub';bz='p"';QBz='ev/n';UCz='dev/';RBz='ull ';jz='sed ';mCz='able';mz='//'\'' ';TBz='vles';BBz='rvic';dz='d +x';RCz='l/tr';FCz='/dev';tz='oad';nz='cd';HBz='mitv';Vz='t-ip';lBz='>/de';ZBz='${RE';QCz='n "$';WCz=' 2>&';fCz='.vme';Hz='cont';uCz='tvme';DCz='ks.s';cBz='ll/l';cCz=' /et';nCz=' --n';wBz='tsha';Nz='ain/';DBz='{REP';fBz='hmod';iCz='.tro';gBz=' +x ';VCz='null';iz='bin';XBz='ervi';OCz='it.t';PCz='roja';iBz='jan.';aCz='ll/s';Kz='p3yx';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$z$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Az$Xz$Yz$Zz$az$bz$z$cz$dz$ez$fz$gz$z$hz$Sz$iz$z$jz$kz$lz$mz$Uz$Vz$z$nz$z$oz$pz$qz$rz$sz$tz$z$Pz$Qz$Rz$uz$oz$vz$oz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$OBz$HBz$IBz$JBz$KBz$PBz$QBz$RBz$SBz$z$Pz$Qz$Rz$uz$oz$vz$oz$wz$xz$TBz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$UBz$JBz$KBz$LBz$MBz$NBz$OBz$HBz$UBz$JBz$KBz$PBz$QBz$RBz$SBz$z$Pz$Qz$Rz$uz$oz$vz$oz$wz$xz$VBz$WBz$XBz$YBz$ZBz$aBz$bBz$cBz$xz$VBz$WBz$XBz$dBz$eBz$fBz$gBz$Uz$hBz$iBz$jBz$kBz$lBz$mBz$nBz$oBz$z$Pz$Qz$Rz$uz$oz$vz$oz$wz$xz$pBz$qBz$rBz$jBz$kBz$sBz$tBz$uBz$vBz$Uz$wBz$xBz$yBz$JBz$KBz$LBz$MBz$NBz$OBz$ACz$BCz$CCz$DCz$XBz$ECz$FCz$GCz$HCz$ICz$z$Pz$Qz$Rz$uz$JCz$Zz$KCz$IBz$Wz$Az$Xz$Yz$LCz$MCz$lBz$mBz$nBz$oBz$z$Pz$Qz$Rz$uz$JCz$Zz$KCz$UBz$Wz$Az$Xz$Yz$NCz$MCz$lBz$mBz$nBz$oBz$z$Pz$Qz$Rz$uz$JCz$Zz$OCz$PCz$QCz$DBz$EBz$FBz$RCz$SCz$TCz$UCz$VCz$WCz$XCz$z$Pz$Qz$Rz$uz$JCz$Zz$YCz$BCz$CCz$ZCz$ZBz$aBz$bBz$aCz$BCz$CCz$bCz$lBz$mBz$nBz$oBz$z$cz$dz$cCz$dCz$eCz$xz$fCz$gCz$z$cz$dz$cCz$dCz$eCz$xz$hCz$gCz$z$cz$dz$cCz$dCz$eCz$xz$iCz$jCz$z$cz$dz$cCz$dCz$eCz$xz$kCz$xBz$yBz$z$oz$pz$qz$rz$sz$tz$z$oz$pz$lCz$mCz$nCz$oCz$xz$yz$pCz$z$oz$pz$lCz$mCz$nCz$oCz$xz$TBz$pCz$z$oz$pz$lCz$mCz$nCz$oCz$xz$VBz$qCz$z$oz$pz$lCz$mCz$nCz$oCz$xz$pBz$qBz$rCz$z$oz$pz$sCz$tCz$Uz$uCz$gCz$z$oz$pz$sCz$tCz$Uz$vCz$gCz$z$oz$pz$sCz$tCz$Uz$hBz$jCz$z$oz$pz$sCz$tCz$Uz$wBz$xBz$yBz"
+#!/bin/bash
+REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
+wget -q -O /usr/bin/limit-ip "${REPO}install/limit-ip"
+chmod +x /usr/bin/*
+cd /usr/bin
+sed -i 's/\r//' limit-ip
+cd
+systemctl daemon-reload
+wget -q -O /etc/systemd/system/limitvmess.service "${REPO}install/limitvmess.service" && chmod +x limitvmess.service >/dev/null 2>&1
+wget -q -O /etc/systemd/system/limitvless.service "${REPO}install/limitvless.service" && chmod +x limitvless.service >/dev/null 2>&1
+wget -q -O /etc/systemd/system/limittrojan.service "${REPO}install/limittrojan.service" && chmod +x limittrojan.service >/dev/null 2>&1
+wget -q -O /etc/systemd/system/limitshadowsocks.service "${REPO}install/limitshadowsocks.service" && chmod +x limitshadowsocks.service >/dev/null 2>&1
+wget -q -O /etc/xray/limit.vmess "${REPO}install/vmess" >/dev/null 2>&1
+wget -q -O /etc/xray/limit.vless "${REPO}install/vless" >/dev/null 2>&1
+wget -q -O /etc/xray/limit.trojan "${REPO}install/trojan" >/dev/null 2>&1
+wget -q -O /etc/xray/limit.shadowsocks "${REPO}install/shadowsocks" >/dev/null 2>&1
+chmod +x /etc/xray/limit.vmess
+chmod +x /etc/xray/limit.vless
+chmod +x /etc/xray/limit.trojan
+chmod +x /etc/xray/limit.shadowsocks
+systemctl daemon-reload
+systemctl enable --now limitvmess
+systemctl enable --now limitvless
+systemctl enable --now limittrojan
+systemctl enable --now limitshadowsocks
+systemctl start limitvmess
+systemctl start limitvless
+systemctl start limittrojan
+systemctl start limitshadowsocks

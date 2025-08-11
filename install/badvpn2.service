@@ -1,3 +1,16 @@
-z="
-";hz='ne.t';eBz='ILE=';kz='[Ser';KBz='x-cl';Xz='vpn.';gz='onli';wz='t=/u';ez='netw';nBz='ser.';lz='vice';cBz='0000';oBz='targ';lBz='=mul';jBz='Want';Pz='nux.';Jz='atio';hBz='[Ins';Mz='//ma';RBz='ailu';cz='.tar';fBz='1000';Hz='Docu';vz='Star';Sz='comm';Uz='y/ba';Bz='t]';QBz='on-f';Zz='Afte';Vz='dvpn';UBz='reve';Rz='man/';oz='=roo';DBz='ten-';Kz='n=ht';MBz='s 10';fz='ork-';YBz='=23';BBz='pn -';iz='arge';aBz='tNPR';xz='sr/s';PBz='art=';IBz='200 ';GBz='.0.0';WBz='itSt';iBz='tall';Qz='org/';SBz='re';ABz='badv';Cz='Desc';XBz='atus';pBz='et';Gz='7200';uz='Exec';jz='t';HBz='.1:7';Nz='n.ar';mBz='ti-u';qz='wPri';EBz='addr';az='r=sy';bz='slog';rz='vile';Oz='chli';Fz='UDP ';LBz='ient';bBz='OC=1';Iz='ment';Tz='unit';nz='User';Ez='ion=';pz='NoNe';tz='true';sz='ges=';NBz='00';Wz='/bad';VBz='ntEx';TBz='artP';ZBz='Limi';FBz=' 127';Yz='7.en';gBz='000';dz='get ';Lz='tps:';CBz='-lis';OBz='Rest';mz=']';Az='[Uni';yz='bin/';Dz='ript';JBz='--ma';dBz='tNOF';kBz='edBy';
-eval "$Az$Bz$z$Cz$Dz$Ez$Fz$Gz$z$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$Vz$Wz$Xz$Yz$z$Zz$az$bz$cz$dz$ez$fz$gz$hz$iz$jz$z$kz$lz$mz$z$nz$oz$jz$z$pz$qz$rz$sz$tz$z$uz$vz$wz$xz$yz$ABz$BBz$CBz$DBz$EBz$FBz$GBz$HBz$IBz$JBz$KBz$LBz$MBz$NBz$z$OBz$PBz$QBz$RBz$SBz$z$OBz$TBz$UBz$VBz$WBz$XBz$YBz$z$ZBz$aBz$bBz$cBz$z$ZBz$dBz$eBz$fBz$gBz$z$hBz$iBz$mz$z$jBz$kBz$lBz$mBz$nBz$oBz$pBz"
+[Unit]
+Description=UDP 7200
+Documentation=https://man.archlinux.org/man/community/badvpn/badvpn.7.en
+After=syslog.target network-online.target
+
+[Service]
+User=root
+NoNewPrivileges=true
+ExecStart=/usr/sbin/badvpn --listen-addr 127.0.0.1:7200 --max-clients 1000
+Restart=on-failure
+RestartPreventExitStatus=23
+LimitNPROC=10000
+LimitNOFILE=1000000
+
+[Install]
+WantedBy=multi-user.target

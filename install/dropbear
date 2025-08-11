@@ -1,3 +1,20 @@
-z="
-";Rz='ue.n';Wz='NER=';Zz='sue.';Vz='_BAN';Dz='T=14';az='net"';Cz='_POR';Fz='_REC';Kz='6';Hz='_WIN';Uz='9"';Pz='/etc';Nz='RGS=';Az='DROP';Gz='EIVE';Yz='c/is';Bz='BEAR';Qz='/iss';Oz='"-b ';Mz='RA_A';Jz='6553';Xz='"/et';Tz='p 10';Lz='_EXT';Sz='et -';Iz='DOW=';Ez='3';
-eval "$Az$Bz$Cz$Dz$Ez$z$Az$Bz$Fz$Gz$Hz$Iz$Jz$Kz$z$Az$Bz$Lz$Mz$Nz$Oz$Pz$Qz$Rz$Sz$Tz$Uz$z$Az$Bz$Vz$Wz$Xz$Yz$Zz$az"
+# The TCP port that Dropbear listens on
+DROPBEAR_PORT=143
+
+# Receive window size - this is a tradeoff between memory and network performance
+DROPBEAR_RECEIVE_WINDOW=65536
+
+# Any additional arguments for Dropbear.  For instead set
+#
+DROPBEAR_EXTRA_ARGS="-b /etc/issue.net -p 109"
+
+
+#
+# to specify an optional banner file containing a message to be sent to
+DROPBEAR_BANNER="/etc/issue.net"
+# clients before they connect; or
+#
+#   DROPBEAR_EXTRA_ARGS="-p 109""-r /etc/dropbear/rsa_host_key -r /etc/dropbear/ed25519_host_key"
+#
+# to specify custom host keys.  See dropbear(8) for possible values.
+#DROPBEAR_EXTRA_ARGS="-p 50000 -p 109 -p 110 -p 69"""

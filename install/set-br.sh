@@ -1,3 +1,14 @@
-z="
-";kz='conf';dz='/roo';FBz='per';cBz='oot/';QBz='imit';fBz='h';Cz='tps:';cz=' -O ';Nz='ain/';sz='ithu';Gz='user';Pz='apt ';GBz='make';bz='wget';oz='git ';pz='e  h';LBz=' -q ';Kz='p3yx';vz='sper';tz='b.co';qz='ttps';Lz='/new';eBz='br.s';rz='://g';Dz='//ra';OBz='nsta';RBz='.sh ';mz='}ins';Az='REPO';KBz='rf w';DBz='onde';JBz='rm -';ZBz='mit.';Yz='clon';BBz='it';UBz=' +x ';Iz='ent.';PBz='ll/l';ABz='er.g';ez='t/.c';WBz='t.sh';jz='one.';wz='9/wo';Rz='all ';MBz='${RE';lz=' "${';yz='shap';Hz='cont';fz='onfi';EBz='rsha';az='nfig';NBz='PO}i';TBz='hmod';gz='g/rc';Vz='tf "';Tz='ne';Fz='thub';dBz='set-';nz='tall';Oz='"';XBz=' && ';Wz='q\n"';Uz='prin';Sz='rclo';hz='lone';uz='m/ca';Mz='sc/m';CBz='cd w';iz='/rcl';aBz='sh';Qz='inst';VBz='limi';IBz='cd';Xz=' | r';HBz=' ins';Zz='e co';Bz='="ht';xz='nder';YBz='./li';Jz='com/';SBz='&& c';bBz='f /r';Ez='w.gi';
-eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$Hz$Iz$Jz$Kz$Lz$Mz$Nz$Oz$z$Pz$Qz$Rz$Sz$Tz$z$Uz$Vz$Wz$Xz$Yz$Zz$az$z$bz$cz$dz$ez$fz$gz$hz$iz$jz$kz$lz$Az$mz$nz$iz$jz$kz$Oz$z$oz$Yz$pz$qz$rz$sz$tz$uz$vz$wz$xz$yz$ABz$BBz$z$CBz$DBz$EBz$FBz$z$GBz$HBz$nz$z$IBz$z$JBz$KBz$DBz$EBz$FBz$z$bz$LBz$MBz$NBz$OBz$PBz$QBz$RBz$SBz$TBz$UBz$VBz$WBz$XBz$YBz$ZBz$aBz$z$JBz$bBz$cBz$dBz$eBz$fBz$z$JBz$bBz$cBz$VBz$WBz"
+#!/bin/bash
+REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
+apt install rclone
+printf "q\n" | rclone config
+wget -O /root/.config/rclone/rclone.conf "${REPO}install/rclone.conf"
+git clone  https://github.com/casper9/wondershaper.git
+cd wondershaper
+make install
+cd
+rm -rf wondershaper
+wget -q ${REPO}install/limit.sh && chmod +x limit.sh && ./limit.sh
+    
+rm -f /root/set-br.sh
+rm -f /root/limit.sh

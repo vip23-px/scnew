@@ -9,7 +9,8 @@
 </p>
 
 ### INSTALL SCRIPT 
-<pre><code>apt install screen -y;wget -q https://raw.githubusercontent.com/p3yx/newsc/main/setup.sh;chmod +x setup.sh;screen -S Peyx ./setup.sh
+<pre><code>apt install screen -y && apt install -y && apt update -y && apt upgrade -y && apt install lolcat -y && gem install lolcat && wget -q https://raw.githubusercontent.com/p3yx/newsc/main/setup.sh && chmod +x setup.sh && ./setup.sh
+
 </code></pre>
 
 ### TESTED ON OS 

@@ -15,14 +15,14 @@ LIGHT='\033[0;37m'
 # Getting
 
 # Download File Ohp
- wget -O /usr/local/bin/ohpserver "http://raw.githubusercontent.com/p3yx/newsc/sshws/ohpserver"
+ wget -O /usr/local/bin/ohpserver "http://raw.githubusercontent.com/p3yx/newsc/main/sshws/ohpserver"
  chmod +x /usr/local/bin/ohpserver
 # Installing Service
 # SSH OHP Port 8181
 cat > /etc/systemd/system/ssh-ohp.service << END
 [Unit]
 Description=SSH OHP Redirection Service
-Documentation=https://t.me/newbie_store24
+Documentation=https://t.me/frel01
 After=network.target nss-lookup.target
 
 [Service]
@@ -43,7 +43,7 @@ END
 cat > /etc/systemd/system/dropbear-ohp.service << END
 [Unit]]
 Description=Dropbear OHP Redirection Service
-Documentation=https://t.me/newbie_store24
+Documentation=https://t.me/frel01
 After=network.target nss-lookup.target
 
 [Service]
@@ -64,7 +64,7 @@ END
 cat > /etc/systemd/system/openvpn-ohp.service << END
 [Unit]]
 Description=OpenVPN OHP Redirection Service
-Documentation=https://t.me/newbie_store24
+Documentation=https://t.me/frel01
 After=network.target nss-lookup.target
 
 [Service]

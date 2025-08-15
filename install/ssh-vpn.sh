@@ -7,7 +7,8 @@ apt dist-upgrade -y
 apt install netfilter-persistent -y
 apt-get remove --purge ufw firewalld -y
 apt install -y screen curl jq bzip2 gzip vnstat coreutils rsyslog iftop zip unzip git apt-transport-https build-essential -y
-REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
+REPO="https://raw.githubusercontent.com/vip23-px/scnew/main/"
+REPO2="https://raw.githubusercontent.com/vip23-px/scnew/main/install/"
 # initializing var
 export DEBIAN_FRONTEND=noninteractive
 MYIP=$(wget -qO- ipinfo.io/ip)
@@ -244,7 +245,7 @@ fi
 
 # Unduh file konfigurasi HAProxy
 echo "Mengunduh file konfigurasi HAProxy..."
-wget -O /etc/haproxy/haproxy.cfg "https://raw.githubusercontent.com/p3yx/newsc/main/install/haproxy.cfg"
+wget -O /etc/haproxy/haproxy.cfg "https://raw.githubusercontent.com/vip23-px/scnew/main/install/haproxy.cfg"
 
 # Reload daemon systemd
 echo "Memuat ulang daemon systemd..."
@@ -361,7 +362,7 @@ SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 */5 * * * * root /usr/bin/autocpu
 END
-wget -O /usr/bin/autocpu "${REPO}install/autocpu.sh" && chmod +x /usr/bin/autocpu
+wget -O /usr/bin/autocpu "${REPO2}install/autocpu.sh" && chmod +x /usr/bin/autocpu
 cat >/etc/cron.d/xp_sc <<-END
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin

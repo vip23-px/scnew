@@ -4,7 +4,7 @@
 # By PX VPN 
 # ==================================================
 # Link Hosting Kalian
-REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
+REPO="https://raw.githubusercontent.com/vip23-px/scnew/main/"
 
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive

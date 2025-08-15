@@ -11,7 +11,7 @@ CYAN='\033[0;36m'
 LIGHT='\033[0;37m'
 # ==========================================
 # Getting
-REPO="https://raw.githubusercontent.com/p3yx/newsc/main/"
+REPO="https://raw.githubusercontent.com/vip23-px/scnew/main/"
 echo -e "
 "
 date

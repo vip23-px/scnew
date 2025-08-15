@@ -21,14 +21,14 @@ fi
 # Link Hosting Kalian
 sudo apt install python3
 
-wget -O /usr/local/bin/ws "http://raw.githubusercontent.com/p3yx/newsc/main/sshws/ws"
+wget -O /usr/local/bin/ws "http://raw.githubusercontent.com/vip23-px/scnew/sshws/ws"
 chmod +x /usr/local/bin/ws
 
 # Installing Service
 cat > /etc/systemd/system/ws.service << END
 [Unit]
-Description=Proxy Mod By PX Store 
-Documentation=https://t.me/frel01
+Description=Proxy Mod By Newbie Store 
+Documentation=https://t.me/newbie_store24
 After=network.target nss-lookup.target
 
 [Service]
@@ -49,14 +49,14 @@ systemctl enable ws.service
 systemctl start ws.service
 systemctl restart ws.service
 
-wget -O /usr/local/bin/ws-ovpn "http://raw.githubusercontent.com/p3yx/newsc/main/sshws/ws"
+wget -O /usr/local/bin/ws-ovpn "http://myrid.my.id/os/sshws/ws"
 chmod +x /usr/local/bin/ws-ovpn
 
 # Installing Service
 cat > /etc/systemd/system/ws-ovpn.service << END
 [Unit]
 Description=Proxy Mod By NEWBIE STORE
-Documentation=https://t.me/frel01
+Documentation=https://t.me/newbie_store24
 After=network.target nss-lookup.target
 
 [Service]
